@@ -19,7 +19,7 @@ function Header() {
             className="menu_burger"
           />
         </button>
-        <h3 className="logo">Terry Grimoire</h3>
+        <h1 className="logo">GRIMOIRE</h1>
       </div>
 
       {openBurger && (
@@ -36,7 +36,7 @@ function Header() {
             />
           </button>
 
-          <h3 className="logo">Terry Grimoire</h3>
+          <h3 className="logo">GRIMOIRE</h3>
           <ul className="flex-col ul_links">
             <button
               type="button"
@@ -44,7 +44,16 @@ function Header() {
               onClick={() => setOpenBurger(false)}
             >
               <Link to="/">
-                <li className="navlinks">À propos</li>
+                <li className="navlinks">Accueil</li>
+              </Link>
+            </button>
+            <button
+              type="button"
+              className="no_button"
+              onClick={() => setOpenBurger(false)}
+            >
+              <Link to="/">
+                <li className="navlinks">Services</li>
               </Link>
             </button>
             <button
@@ -62,7 +71,7 @@ function Header() {
               onClick={() => setOpenBurger(false)}
             >
               <Link to="/Projects">
-                <li className="navlinks">Projets</li>
+                <li className="navlinks">Nos clients </li>
               </Link>
             </button>
             <button

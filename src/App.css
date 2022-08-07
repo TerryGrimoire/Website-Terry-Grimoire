@@ -1,56 +1,89 @@
-body {
+/********************************************************************* CSS VARIABLES *********************************************************************/ 
+
+:root {
+
+  --main-bg-color : #f1f1f1;
+  --secondary-bg-color : #191919;
+  --box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+/********************************************************************* BASIC CSS *********************************************************************/ 
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--main-bg-color);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+a {
+  color: initial;
+  text-decoration: none;
+  font-weight: initial;
 }
 
-.App {
+li {
+  list-style: none;
+}
+
+.no_button {
+  background-color: transparent;
+  border: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+.container {
+  position: relative;
+}
+
+/********************************************************************* NAV *********************************************************************/ 
+
+.menu_burger {
+  padding: 1rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  padding: 1rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav {
+  position: absolute;
+  top: 0;
+  width: 70%;
+  height: 100vh;
+  background-color: var(--main-bg-color);
+  box-shadow: var(--box-shadow);
+  justify-content: space-evenly;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navlinks {
+  width: 100%;
+  padding: 2rem;
+  font-size: 2.5rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navlinks:hover {
+  box-shadow: var(--box-shadow);
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
-button {
-  font-size: calc(10px + 2vmin);
-}
+

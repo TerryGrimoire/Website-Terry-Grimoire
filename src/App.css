@@ -64,6 +64,10 @@ li {
   text-align: center;
 }
 
+.ul_links {
+  padding-left: 3rem;
+}
+
 .nav {
   position: absolute;
   top: 0;
@@ -76,14 +80,19 @@ li {
 
 .navlinks {
   width: 100%;
-  padding: 2rem;
-  font-size: 2.5rem;
+  padding: 3rem 3rem 0.25rem 0;
+  font-size: 2rem;
+  text-align: left;
+  border-bottom: 1px black solid;
 }
 
-.navlinks:hover {
-  box-shadow: var(--box-shadow);
+.croix {
+  width: 3rem;
+  position: absolute; 
+  top: 0;
+  right: 0;
+  padding: 0.5rem;
 }
-
 
 
 

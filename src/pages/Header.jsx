@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import menu from "../assets/menu.png";
+import fermer from "../assets/fermer.png";
 
 function Header() {
   const [openBurger, setOpenBurger] = useState(false);
@@ -23,8 +24,20 @@ function Header() {
 
       {openBurger && (
         <nav className="nav flex-col">
+          <button
+            type="button"
+            className="no_button"
+            onClick={() => setOpenBurger(false)}
+          >
+            <img
+              src={fermer}
+              alt="croix pour fermer le menu"
+              className="croix"
+            />
+          </button>
+
           <h3 className="logo">Terry Grimoire</h3>
-          <ul className="flex-col">
+          <ul className="flex-col ul_links">
             <button
               type="button"
               className="no_button"

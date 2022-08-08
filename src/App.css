@@ -4,6 +4,7 @@
 
   --main-bg-color : #FFFFFF;
   --secondary-bg-color : #191919;
+  --third-color : #999999;
   --button-color: #0055FF;
   --box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -28,13 +29,13 @@ li {
   list-style: none;
 }
 
-img {
-  margin: 2rem 0.5rem;
+section {
+  padding: 2rem 0;
 }
-
 span {
   font-weight: bold;
   color: initial;
+  font-size: 1rem;
 }
 
 p {
@@ -67,9 +68,18 @@ p {
 .align-start {
   align-items: flex-start;
 }
+.align-end {
+  align-items: flex-end;
+}
 
 .justify-center {
   justify-content: center;
+}
+.justify-start {
+  justify-content: flex-start;
+}
+.justify-end {
+  justify-content: flex-end;
 }
 .justify-between {
   justify-content: space-between;
@@ -91,6 +101,10 @@ p {
 .blue {
   background-color: var(--button-color);
   color: var(--main-bg-color);
+}
+
+.margin1r0 {
+  margin: 1rem 0;
 }
 /********************************************************************* NAV *********************************************************************/ 
 
@@ -149,23 +163,42 @@ p {
 
 /********************************************************************* HOME *********************************************************************/ 
 .main_container {
-  padding: 0 3rem;
-}
-.article_home {
-padding: 1rem 0;
-font-size: 1.5rem;
+  padding: 1rem 3rem;
 }
 .first_h2_home {
   text-align: right;
-  padding: 2rem 0;
+  padding: 0 0 5rem;
+  font-size: 2.5rem;
 }
 
 .second_h2_home {
   text-align: left;
-  padding: 2rem 0;
+  padding: 0 0 2rem 0;
+  font-size: 2.5rem;
 }
 
 .p_home {
-  color: #999999;
+  color: var(--third-color);
   font-weight: bold;
+  font-size: 0.9rem;
 }
+
+.check {
+    margin: 2rem 0.5rem 2.5rem 0;
+  }
+
+  .article_home {
+    margin: 3rem 0;
+  }
+
+  .article_home img {
+    box-shadow: var(--box-shadow);
+    border-radius: 30% 70% 30% 70% / 30% 47% 53% 70% ;
+    width: 20rem;
+    margin: 3rem 0;
+  }
+
+  .article_home h3 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }

@@ -4,6 +4,7 @@
 
   --main-bg-color : #FFFFFF;
   --secondary-bg-color : #191919;
+  --button-color: #0055FF;
   --box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -28,7 +29,17 @@ li {
 }
 
 img {
-  margin: 2rem 0;
+  margin: 2rem 0.5rem;
+}
+
+span {
+  font-weight: bold;
+  color: initial;
+}
+
+p {
+  font-size: 1rem;
+  font-weight:500;
 }
 
 .no_button {
@@ -45,17 +56,42 @@ img {
   flex-direction: column;
 }
 
+.wrap {
+  flex-wrap: wrap;
+}
+
 .align-center {
   align-items: center;
+}
+
+.align-start {
+  align-items: flex-start;
 }
 
 .justify-center {
   justify-content: center;
 }
+.justify-between {
+  justify-content: space-between;
+}
+.justify-evenly {
+  justify-content: space-evenly;
+}
 .container {
   position: relative;
 }
 
+.button_style {
+  border: none;
+  box-shadow: var(--box-shadow);
+  padding: 1rem;
+  border-radius: 0.75rem;
+  font-weight: bold;
+}
+.blue {
+  background-color: var(--button-color);
+  color: var(--main-bg-color);
+}
 /********************************************************************* NAV *********************************************************************/ 
 
 .menu_burger {
@@ -129,3 +165,7 @@ font-size: 1.5rem;
   padding: 2rem 0;
 }
 
+.p_home {
+  color: #999999;
+  font-weight: bold;
+}

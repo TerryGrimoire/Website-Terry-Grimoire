@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className="main_container">
       <h2 className="first_h2_home">
-        Le monde change, votre entreprise devrait aussi.
+        La formule qu'il vous faut pour grandir votre entreprise.
       </h2>
 
       <div className="flex align-center justify-between">
@@ -42,7 +42,7 @@ export default function Home() {
       </section>
       <section>
         <h2 className="second_h2_home">
-          Notre expertise vous fait grandir sereinement et sainement
+          Une offre complète pour tous vos besoins
         </h2>
 
         {expertiseData.map((expertise) => (

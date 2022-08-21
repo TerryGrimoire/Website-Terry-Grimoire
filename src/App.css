@@ -193,12 +193,13 @@ p {
 
   .article_home img {
     box-shadow: var(--box-shadow);
-    border-radius: 30% 70% 30% 70% / 30% 47% 53% 70% ;
-    width: 20rem;
+    border-radius:30% 70% 44% 56% / 30% 44% 56% 70% ;
+    width: 22rem;
     margin: 3rem 0;
   }
 
   .article_home h3 {
     margin-bottom: 1rem;
     font-size: 1.5rem;
+    text-align: center;
   }

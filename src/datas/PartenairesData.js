@@ -15,7 +15,7 @@ const partenairesData = [
   },
   {
     id: 1,
-    title: "La plaisir, bistrot queer",
+    title: "La plaisir",
     image: plaisir,
     alt: "Logo de la plaisir bistrot queer",
     description:

@@ -13,13 +13,13 @@ export default function Home() {
   const handleDragStart = (e) => e.preventDefault();
 
   const items = partenairesData.map((partenaire) => (
-    <div className="margin0r1r">
+    <div className="margin1r0 flex flex-col align-center justify-center">
       <img
         src={partenaire.image}
         alt={partenaire.alt}
         onDragStart={handleDragStart}
         role="presentation"
-        width="100rem"
+        className="partenaire_image margin1r0"
       />
       <h4>{partenaire.title}</h4>
     </div>
@@ -27,7 +27,7 @@ export default function Home() {
 
   const responsive = {
     0: {
-      items: 4,
+      items: 2,
     },
     1024: {
       items: 10,
@@ -40,10 +40,14 @@ export default function Home() {
       </h2>
 
       <div className="flex align-center justify-between">
-        <p>Nous contacter</p>
-        <button type="button" className="button_style blue">
-          Découvrir nos offres
-        </button>
+        <Link to="/contact">
+          <p>Nous contacter</p>
+        </Link>
+        <Link to="/Services">
+          <button type="button" className="button_style blue">
+            Découvrir nos offres
+          </button>
+        </Link>
       </div>
 
       <section>
@@ -102,17 +106,17 @@ export default function Home() {
           interval="5000"
         >
           {formulesData.map((formule) => (
-            <div>
+            <div className="clients_container">
               <h3>{formule.title}</h3>
               <p>{formule.price}</p>
               <p>{formule.time}</p>
               <p>{formule.description}</p>
-              <Link to="/Services">
+              <Link to="/Contact">
                 <button
                   type="button"
                   className={`button_style margin1r0 ${formule.bg}`}
                 >
-                  Plus d'infos
+                  Prendre RDV
                 </button>
               </Link>
             </div>

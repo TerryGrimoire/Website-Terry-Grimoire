@@ -213,6 +213,24 @@ p {
     height: 50rem;
     margin: 0 2rem;
   }
+  .reducto {
+    background-image: url(./assets/reducto.gif);
+    background-position: center;
+    background-size: cover;
+  }
+  .leviosa {
+    background-image: url(./assets/feather.gif);
+    background-size: 5rem;
+  }
+  .bombarda {
+    background-image: url(./assets/bombarda.gif);
+    background-position: center;
+  }
+  .basiculus {
+    background-image: url(./assets/basiculus.gif);
+    background-size: 8rem;
+    background-position: center;
+  }
 
 /********************************************************************* SERVICES *********************************************************************/ 
 

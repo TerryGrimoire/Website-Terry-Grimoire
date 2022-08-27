@@ -99,6 +99,7 @@ export default function Home() {
           showStatus={false}
           showThumbs={false}
           infiniteLoop
+          interval="5000"
         >
           {formulesData.map((formule) => (
             <div>
@@ -107,7 +108,10 @@ export default function Home() {
               <p>{formule.time}</p>
               <p>{formule.description}</p>
               <Link to="/Services">
-                <button type="button" className="button_style margin1r0">
+                <button
+                  type="button"
+                  className={`button_style margin1r0 ${formule.bg}`}
+                >
                   Plus d'infos
                 </button>
               </Link>

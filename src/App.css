@@ -280,3 +280,13 @@ width: 90%;
   width: 10rem;
   margin: 1rem auto;
 }
+
+/********************************************************************* CLIENTS *********************************************************************/ 
+.clients_container * {
+margin: 1rem;
+}
+.clients_image {
+  width: 10rem;
+  border-radius: 50%;
+  box-shadow: var(--box-shadow);
+}

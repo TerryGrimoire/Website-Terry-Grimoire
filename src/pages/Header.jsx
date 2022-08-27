@@ -52,17 +52,8 @@ function Header() {
               className="no_button"
               onClick={() => setOpenBurger(false)}
             >
-              <Link to="/">
+              <Link to="/Services">
                 <li className="navlinks">Services</li>
-              </Link>
-            </button>
-            <button
-              type="button"
-              className="no_button"
-              onClick={() => setOpenBurger(false)}
-            >
-              <Link to="/Billing">
-                <li className="navlinks">Tarification</li>
               </Link>
             </button>
             <button

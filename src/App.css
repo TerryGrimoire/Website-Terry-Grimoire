@@ -213,3 +213,17 @@ p {
     height: 50rem;
     margin: 0 2rem;
   }
+
+/********************************************************************* SERVICES *********************************************************************/ 
+
+.services_container {
+  padding: 2rem;
+}
+
+.services_container * {
+  padding: 1rem 0;
+}
+
+.services_img {
+  height: 30rem;
+}

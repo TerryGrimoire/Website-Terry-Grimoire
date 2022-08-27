@@ -64,8 +64,8 @@ export default function Home() {
         <div className="flex align-center justify-evenly">
           <img src={coche} alt="coche" className="check" />
           <p className="p_home">
-            <span>Prix transparents.</span> Une tarification claire et précise
-            dès le début.
+            <span>Prix juste.</span> Une tarification claire, transparente et
+            sans surprise.
           </p>
         </div>
       </section>
@@ -90,7 +90,7 @@ export default function Home() {
 
       <section>
         <h2 className="first_h2_home">
-          Des tarifs transparents, sans surprise.
+          Des formules simples et transparentes.
         </h2>
         <Carousel
           autoPlay
@@ -106,7 +106,7 @@ export default function Home() {
               <p>{formule.price}</p>
               <p>{formule.time}</p>
               <p>{formule.description}</p>
-              <Link to="/Billing">
+              <Link to="/Services">
                 <button type="button" className="button_style margin1r0">
                   Plus d'infos
                 </button>

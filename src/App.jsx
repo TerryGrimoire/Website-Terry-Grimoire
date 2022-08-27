@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./pages/Header";
 import Home from "./pages/Home";
 import Services from "./pages/Services";
-import Projects from "./pages/Projects";
+import Clients from "./pages/Clients";
 import Contact from "./pages/Contact";
 
 import "./App.css";
@@ -14,7 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Services" element={<Services />} />
-        <Route path="/Projects" element={<Projects />} />
+        <Route path="/Clients" element={<Clients />} />
         <Route path="/Contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>

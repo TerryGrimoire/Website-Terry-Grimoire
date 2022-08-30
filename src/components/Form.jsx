@@ -5,7 +5,7 @@ function Form() {
     <form action="form">
       <form action="form" className="flex flex-col contact_form">
         <label htmlFor="nameInput">
-          Name
+          Nom et prénom
           <input
             type="text"
             placeholder="Saisir votre nom et prénom"
@@ -13,7 +13,7 @@ function Form() {
           />
         </label>
         <label htmlFor="emailInput">
-          Email
+          Adresse email
           <input
             type="email"
             placeholder="Saisir votre adresse email"
@@ -21,7 +21,7 @@ function Form() {
           />
         </label>
         <label htmlFor="phoneInput">
-          Number Phone
+          Numéro de téléphone
           <input
             type="tel"
             placeholder="Saisir votre numéro de téléphone"

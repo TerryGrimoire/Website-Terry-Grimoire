@@ -36,7 +36,7 @@ export default function Home() {
   return (
     <main className="main_container">
       <h2 className="first_h2_home">
-        La formule qu'il vous faut pour grandir votre entreprise.
+        La formule qu'il vous faut pour faire grandir votre entreprise.
       </h2>
 
       <div className="flex align-center justify-between">

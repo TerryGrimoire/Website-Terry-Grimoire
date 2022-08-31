@@ -41,7 +41,9 @@ export default function Home() {
 
       <div className="flex align-center justify-between">
         <Link to="/contact">
-          <p>Nous contacter</p>
+          <button type="button" className="button_style white">
+            Prendre RDV
+          </button>
         </Link>
         <Link to="/Services">
           <button type="button" className="button_style blue">

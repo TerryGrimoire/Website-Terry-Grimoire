@@ -1,10 +1,9 @@
 import monopage from "../assets/monopage.gif";
-import vitrine from "../assets/vitrine.png";
-import transactionnel from "../assets/transactionnel.png";
-import refonte from "../assets/refonte.png";
-import maintenance from "../assets/maintenance.png";
+import vitrine from "../assets/vitrine.gif";
+import transactionnel from "../assets/transactionnel.gif";
+import refonte from "../assets/refonte.gif";
 import logiciel from "../assets/logiciel.png";
-import analyse from "../assets/analyse.png";
+import analyse from "../assets/analyse.gif";
 import marketing from "../assets/marketing.gif";
 
 const servicesData = [
@@ -38,27 +37,20 @@ const servicesData = [
   },
   {
     id: 5,
-    title: "Maintenance de votre site internet",
-    img: maintenance,
-    description:
-      "Des changements nécessaires sur votre site internet, des nouveautés à ajouter ou la transformation de votre site vitrine en site transactionnel. Faites appel à nos services pour tout besoin ultérieur à la création de votre page.",
-  },
-  {
-    id: 6,
     title: "Création de logiciel de gestion d'entreprise",
     img: logiciel,
     description:
       "Création de logiciel d'aide à la vente, de gestion de stocks, budgets, etc.",
   },
   {
-    id: 7,
+    id: 6,
     title: "Analyse de données",
     img: analyse,
     description:
       "Les données de nos jours sont la voie vers la réussite pour votre entreprise. Grâce à elles, vous pouvez prendre des décisions en ayant une meilleure vision de la réalité. Pour cela, encore faut-il être en mesure d'exploiter ses données et de les faire parler. C'est là que notre équipe intervient en analysant vos données et en créant des dashboards lisibles et compréhensibles vous permettant de mieux appréhender vos décisions importantes.",
   },
   {
-    id: 8,
+    id: 7,
     title: "Le marketing digital via les réseaux sociaux",
     img: marketing,
     description:

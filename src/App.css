@@ -119,6 +119,7 @@ p {
 
 .menu_burger {
   padding: 1rem;
+  width: 5rem;
 }
 .logo {
   font-size: 1.5rem;
@@ -194,6 +195,7 @@ p {
 
 .check {
     margin: 2rem 0.5rem 2.5rem 0;
+    width: 2.5rem;
   }
 
   .article_home {

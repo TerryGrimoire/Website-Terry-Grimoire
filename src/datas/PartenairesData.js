@@ -1,7 +1,7 @@
 import montecito from "../assets/Montecito.png";
 import plaisir from "../assets/La_plaisir.jpg";
 import werevart from "../assets/werevart.png";
-import charles from "../assets/Charles.png";
+import charles from "../assets/charles.png";
 
 const partenairesData = [
   {

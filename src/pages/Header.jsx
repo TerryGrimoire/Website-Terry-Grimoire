@@ -7,7 +7,7 @@ function Header() {
   const [openBurger, setOpenBurger] = useState(false);
   return (
     <header className="container">
-      <div className="flex align-center">
+      <div className="flex align-center justify-between">
         <button
           type="button"
           className="no_button"
@@ -19,7 +19,9 @@ function Header() {
             className="menu_burger"
           />
         </button>
-        <h1 className="logo">GRIMOIRE</h1>
+        <Link to="/">
+          <h1 className="logo">GRIMOIRE</h1>
+        </Link>
       </div>
 
       {openBurger && (

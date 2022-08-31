@@ -11,7 +11,7 @@ function Services() {
         <div className="flex flex-col align-center services_container">
           <h2>{service.title}</h2>
           <img src={service.img} alt="" className="services_img" />
-          <p>{service.description}</p>
+          <p className="p_home">{service.description}</p>
         </div>
       ))}
     </div>

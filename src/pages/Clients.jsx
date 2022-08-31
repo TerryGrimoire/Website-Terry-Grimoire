@@ -7,10 +7,9 @@ function Clients() {
   }, []);
   return (
     <section className="flex flex-col align-center justify-center clients_container">
-      <h1>Ils nous font confiance</h1>
+      <h2>Ils nous font confiance</h2>
       {clientsData.map((client) => (
         <div className="flex flex-col align-center justify-center">
-          <h2>{client.title}</h2>
           <a href={client.links}>
             <img
               src={client.image}
@@ -18,7 +17,8 @@ function Clients() {
               className="clients_image"
             />
           </a>
-          <p>{client.description}</p>
+          <h3>{client.title}</h3>
+          <p className="p_home">{client.description}</p>
         </div>
       ))}
     </section>

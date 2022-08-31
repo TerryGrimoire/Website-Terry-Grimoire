@@ -40,7 +40,7 @@ const servicesData = [
     title: "Analyse de données",
     img: analyse,
     description:
-      "Les données de nos jours sont la voie vers la réussite pour votre entreprise. Grâce à elles, vous pouvez prendre des décisions en ayant une meilleure vision de la réalité. Pour cela, encore faut-il être en mesure d'exploiter ses données et de les faire parler. C'est là que notre équipe intervient en analysant vos données et en créant des dashboards lisibles et compréhensibles vous permettant de mieux appréhender vos décisions importantes.",
+      "Les données de nos jours sont la voie vers la réussite pour votre entreprise. Grâce à elles, vous pouvez prendre des décisions stratégiques en ayant une meilleure vision de la réalité. Pour cela, encore faut-il être en mesure d'exploiter ses données et de les faire parler. C'est là que notre équipe intervient en analysant vos données et en créant des dashboards lisibles et compréhensibles vous permettant de mieux appréhender vos décisions importantes.",
   },
   {
     id: 6,

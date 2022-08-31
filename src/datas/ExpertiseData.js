@@ -24,7 +24,7 @@ const ExpertiseData = [
     img: "https://media3.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif?cid=ecf05e47rf99mjtr9gizkyu7zgm94cfgh4yrga2em6nw6ped&rid=giphy.gif&ct=g",
     alt: "main qui ouvre et referme un dashboard sur lequel on voit des analyses et graphiques",
     content:
-      "Parce qu'avancée à l'aveugle n'est jamais une bonne idée, nous vous proposons la possibilité de collecter et analyser vos données grâce à nos experts sur ce sujet. Une analyse complète et ciblée qui vous permettra de prendre des décisions basées sur des chiffres réels et donc d'améliorer votre productivité, votre rentabilité et vos différentes stratégies commerciales.",
+      "Parce qu'avancée à l'aveugle n'est jamais une bonne idée, nous vous proposons la possibilité de collecter et analyser vos données grâce à nos experts sur ce sujet. Une analyse complète et ciblée qui vous permettra de prendre des décisions stratégiques basées sur des chiffres réels et donc d'améliorer votre productivité, votre rentabilité et vos différentes stratégies commerciales.",
   },
   {
     id: 4,

@@ -33,8 +33,7 @@ function Form() {
           <textarea
             type="text"
             name="sujetlInput"
-            placeholder="Bonjour Grimoire, 
-            Abracadra."
+            placeholder="Saisir votre message"
           />
         </label>
         <button type="submit" value="send" className="button_style blue">

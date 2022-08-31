@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import clientsData from "../datas/PartenairesData";
 
 function Clients() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <section className="flex flex-col align-center justify-center clients_container">
       <h1>Ils nous font confiance</h1>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import AliceCarousel from "react-alice-carousel";
@@ -10,6 +10,9 @@ import expertiseData from "../datas/ExpertiseData";
 import partenairesData from "../datas/PartenairesData";
 
 export default function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const handleDragStart = (e) => e.preventDefault();
 
   const items = partenairesData.map((partenaire) => (

@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
-import { Carousel } from "react-responsive-carousel";
+// import { Carousel } from "react-responsive-carousel";
 import coche from "../assets/coche.png";
 import expertiseData from "../datas/ExpertiseData";
-import formulesData from "../datas/FormulesData";
+// import formulesData from "../datas/FormulesData";
 import partenairesData from "../datas/PartenairesData";
 
 export default function Home() {
@@ -93,7 +93,7 @@ export default function Home() {
           </article>
         ))}
       </section>
-
+      {/* }
       <section>
         <h2 className="first_h2_home">
           Des formules simples et transparentes.
@@ -125,6 +125,7 @@ export default function Home() {
           ))}
         </Carousel>
       </section>
+      */}
       <section>
         <h2 className="second_h2_home">Ils nous font confiance</h2>
         <AliceCarousel

@@ -38,7 +38,7 @@ export default function Home() {
   };
   return (
     <main className="main_container">
-      <h2 className="first_h2_home">L'avenir de votre entreprise.</h2>
+      <h2 className="first_h2_home">Digitalisez votre entreprise.</h2>
 
       <div className="flex align-center justify-between">
         <Link to="/contact">

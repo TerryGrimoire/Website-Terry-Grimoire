@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import menu from "../assets/menu.png";
 import fermer from "../assets/fermer.png";
+import logo from "../assets/GN.png";
 
 function Header() {
   const [openBurger, setOpenBurger] = useState(false);
@@ -20,7 +21,11 @@ function Header() {
           />
         </button>
         <Link to="/">
-          <h1 className="logo">GRIMOIRE</h1>
+          <img
+            src={logo}
+            alt="logo de Grimoire numérique avec un livre ouvert qui ressort des petites planetes avec le signe www"
+            className="logo"
+          />
         </Link>
       </div>
 
@@ -38,7 +43,13 @@ function Header() {
             />
           </button>
 
-          <h3 className="logo">GRIMOIRE</h3>
+          <Link to="/">
+            <img
+              src={logo}
+              alt="logo de Grimoire numérique avec un livre ouvert qui ressort des petites planetes avec le signe www"
+              className="logo"
+            />
+          </Link>
           <ul className="flex-col ul_links">
             <button
               type="button"

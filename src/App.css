@@ -125,13 +125,14 @@ p {
 /********************************************************************* NAV *********************************************************************/ 
 
 .menu_burger {
-  padding: 1rem;
-  width: 5rem;
+  width: 4rem;
+  margin: 0 1rem;
 }
 .logo {
   font-size: 1.5rem;
-  padding: 1rem 2rem;
   text-align: center;
+  height: 6rem;
+  margin: 2rem 1rem;
 }
 
 .ul_links {
@@ -159,7 +160,7 @@ p {
 
 .croix {
   width: 3rem;
-  position: absolute; 
+  position: absolute;
   top: 0;
   right: 0;
   padding: 0.5rem;
@@ -227,6 +228,15 @@ p {
   border-radius: 50%;
   box-shadow: var(--box-shadow);
   }
+
+  .formules_container *{
+    margin: 1rem 0;
+  }
+
+  .prix {
+    font-weight: bold;
+    font-size: 2rem;
+  }
   .reducto {
     background-image: url(./assets/reducto.gif);
     background-position: center;
@@ -240,16 +250,10 @@ p {
     background-image: url(./assets/bombarda.gif);
     background-position: center;
   }
-  .basiculus {
-    background-image: url(./assets/basiculus.gif);
-    background-size: 8rem;
-    background-position: center;
-  }
-
 /********************************************************************* SERVICES *********************************************************************/ 
 
 .services_container {
-  padding: 2rem;
+  padding: 2rem 3rem;
 }
 
 .services_container * {
@@ -294,8 +298,12 @@ width: 90%;
 }
 
 /********************************************************************* CLIENTS *********************************************************************/ 
+
+.clients_container {
+  padding: 2rem 3rem;
+}
 .clients_container * {
-margin: 1rem;
+margin: 1rem 0;
 }
 .clients_image {
   width: 10rem;

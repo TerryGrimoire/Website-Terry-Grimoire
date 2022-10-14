@@ -108,9 +108,9 @@ export default function Home() {
           interval="5000"
         >
           {formulesData.map((formule) => (
-            <div className="clients_container">
+            <div className="formules_container">
               <h2>{formule.title}</h2>
-              <p>{formule.price}</p>
+              <p className="prix">{formule.price}</p>
               <p>{formule.time}</p>
               <p className="p_home">{formule.description}</p>
               <Link to="/Contact">

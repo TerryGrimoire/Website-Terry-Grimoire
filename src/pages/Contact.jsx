@@ -31,6 +31,7 @@ function Contact() {
             src="https://calendly.com/terry-grimoire/30min?month=2022-08"
             frameBorder="0"
             title="calendly terry grimoire"
+            scrolling="no"
           />
         ) : (
           <Form />

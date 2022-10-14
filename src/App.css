@@ -122,6 +122,10 @@ p {
 .margin0r1r {
   margin: 0 1rem;
 }
+
+.text-center {
+  text-align: center;
+}
 /********************************************************************* NAV *********************************************************************/ 
 
 .menu_burger {
@@ -132,7 +136,7 @@ p {
   font-size: 1.5rem;
   text-align: center;
   height: 6rem;
-  margin: 2rem 1rem;
+  margin: 2rem;
 }
 
 .ul_links {
@@ -186,7 +190,7 @@ p {
 .first_h2_home {
   text-align: right;
   padding: 0 0 5rem;
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
 .second_h2_home {
@@ -195,6 +199,11 @@ p {
   font-size: 2.5rem;
 }
 
+.first_h3_home {
+  font-size: 2rem;
+  padding: 0 0 5rem;
+
+}
 .p_home {
   color: var(--third-color);
   font-weight: bold;
@@ -267,6 +276,8 @@ p {
 iframe {
   width: 100vw;
   height: 50rem;
+  overflow-x:hidden;
+  overflow-Y:hidden;
 }
 
 /********************************************************************* CONTACT *********************************************************************/ 

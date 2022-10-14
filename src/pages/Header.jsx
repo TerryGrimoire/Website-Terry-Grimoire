@@ -43,12 +43,16 @@ function Header() {
             />
           </button>
 
-          <Link to="/">
+          <Link
+            to="/"
+            className="flex-col jusify-center align-center text-center"
+          >
             <img
               src={logo}
               alt="logo de Grimoire numérique avec un livre ouvert qui ressort des petites planetes avec le signe www"
               className="logo"
             />
+            <h1>GRIMOIRE NUMÉRIQUE</h1>
           </Link>
           <ul className="flex-col ul_links">
             <button

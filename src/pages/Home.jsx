@@ -38,19 +38,26 @@ export default function Home() {
   };
   return (
     <main className="main_container">
-      <h2 className="first_h2_home">Digitalisez votre entreprise.</h2>
+      <h2 className="first_h2_home">GRIMOIRE NUMÉRIQUE</h2>
 
       <div className="flex align-center justify-between">
-        <Link to="/contact">
-          <button type="button" className="button_style white">
-            Prendre RDV
-          </button>
-        </Link>
-        <Link to="/Services">
-          <button type="button" className="button_style blue">
-            Découvrir nos offres
-          </button>
-        </Link>
+        <button type="button" className="button_style white">
+          Français &nbsp;
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg/langfr-225px-Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg.png"
+            alt="drapeau réunionnais"
+            width={20}
+          />
+        </button>
+
+        <button type="button" className="button_style blue flex">
+          Kréol Réyoné &nbsp;
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Proposed_flag_of_R%C3%A9union_%28VAR%29.svg/langfr-225px-Proposed_flag_of_R%C3%A9union_%28VAR%29.svg.png"
+            alt="drapeau réunionnais"
+            width={20}
+          />
+        </button>
       </div>
 
       <section>
@@ -76,6 +83,19 @@ export default function Home() {
           </p>
         </div>
       </section>
+
+      <div className="flex align-center justify-between">
+        <Link to="/contact">
+          <button type="button" className="button_style white">
+            Prendre RDV
+          </button>
+        </Link>
+        <Link to="/Services">
+          <button type="button" className="button_style blue">
+            Découvrir nos offres
+          </button>
+        </Link>
+      </div>
       <section>
         <h2 className="second_h2_home">
           Une offre complète pour tous vos besoins

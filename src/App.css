@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Mukta:wght@600&display=swap');
 :root {
 
-  --main-bg-color : #FFFFFF;
+  --main-bg-color : #ffffff;
   --secondary-bg-color : #191919;
-  --third-color : #999999;
-  --button-color: #0055FF;
+  --third-color : #524c4c;
+  --button-color: #7067CF;
   --box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 16px;
 }
 
@@ -16,12 +16,23 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: var(--main-bg-color);
   font-family: 'Josefin Sans', sans-serif;
+  background-color: var(--main-bg-color);
 }
 h1 {
-  font-size: 2rem;
+  font-size: 3rem;
+  text-align: center;
 }
+
+h2 {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
 h1, h2 {
   font-family: 'Mukta', sans-serif;
 }
@@ -31,14 +42,16 @@ a {
   text-decoration: none;
   font-weight: initial;
 }
-
+.lien {
+  color: var(--button-color);
+  text-decoration: underline;
+  font-weight: bold;
+  padding-left:0.51rem;
+}
 li {
   list-style: none;
 }
 
-section {
-  padding: 2rem 0;
-}
 span {
   font-weight: bold;
   color: initial;
@@ -48,6 +61,18 @@ span {
 p {
   font-size: 1rem;
   font-weight:500;
+}
+table {
+  padding: 1rem 0;
+}
+td { 
+  text-align: center;
+  font-size: 0.85rem;
+ 
+}
+th {
+  padding:0.65rem 1rem;
+  text-align: left;
 }
 
 .no_button {
@@ -111,7 +136,7 @@ p {
 }
 
 .white {
-  background-color: white;
+  background-color: var(--main-bg-color);
   box-shadow: var(--box-shadow);
   margin-right: 1rem;
 }
@@ -119,24 +144,37 @@ p {
 .margin1r0 {
   margin: 1rem 0;
 }
+.margin2r0 {
+  margin: 2rem 0;
+}
 .margin0r1r {
   margin: 0 1rem;
 }
-
+.marginbottom2 {
+  margin: 3rem 0;
+}
+.padding05 {
+  padding: 0.5rem;
+}
 .text-center {
   text-align: center;
+}
+.vh100 {
+  height: 100vh;
 }
 /********************************************************************* NAV *********************************************************************/ 
 
 .menu_burger {
-  width: 4rem;
-  margin: 0 1rem;
+  height: 1.5rem;
 }
 .logo {
-  font-size: 1.5rem;
-  text-align: center;
-  height: 6rem;
-  margin: 2rem;
+  height: 2.5rem;
+}
+
+.enveloppe {
+  height: 1.5rem;
+  padding-right: 0.65rem;
+
 }
 
 .ul_links {
@@ -187,23 +225,47 @@ p {
 .main_container {
   padding: 1rem 3rem;
 }
-.first_h2_home {
-  text-align: right;
-  padding: 0 0 5rem;
-  font-size: 3rem;
+
+.landingpage_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
 }
 
-.second_h2_home {
-  text-align: left;
-  padding: 0 0 2rem 0;
-  font-size: 2.5rem;
+.Kréol {
+  transition: 2s;
+}
+
+.Français {
+  transition: 2s;
+}
+
+.h1_home {
+  text-align: right;
+}
+
+.h2_home {
+  font-weight: bold;
+    font-size: 2rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: none;
 }
 
 .first_h3_home {
-  font-size: 2rem;
-  padding: 0 0 5rem;
-
+  font-size: 1rem;
+  color: var(--third-color);
+  text-align: right;
 }
+
+.grimoire_magique {
+width: 15rem;
+}
+
 .p_home {
   color: var(--third-color);
   font-weight: bold;
@@ -216,7 +278,7 @@ p {
   }
 
   .article_home {
-    margin: 3rem 0;
+    margin: 5rem 0;
   }
 
   .article_home img {
@@ -224,12 +286,6 @@ p {
     border-radius:30% 70% 44% 56% / 30% 44% 56% 70% ;
     width: 22rem;
     margin: 3rem 0;
-  }
-
-  .article_home h3 {
-    margin-bottom: 1rem;
-    font-size: 1.5rem;
-    text-align: center;
   }
 
   .partenaire_image {
@@ -246,18 +302,18 @@ p {
     font-weight: bold;
     font-size: 2rem;
   }
-  .reducto {
-    background-image: url(./assets/reducto.gif);
-    background-position: center;
-    background-size: cover;
-  }
-  .leviosa {
-    background-image: url(./assets/feather.gif);
-    background-size: 5rem;
-  }
-  .bombarda {
-    background-image: url(./assets/bombarda.gif);
-    background-position: center;
+  .chiffre {
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    border-radius:30% 70% 44% 56% / 30% 44% 56% 70% ;
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem auto;
   }
 /********************************************************************* SERVICES *********************************************************************/ 
 
@@ -278,6 +334,20 @@ iframe {
   height: 50rem;
   overflow-x:hidden;
   overflow-Y:hidden;
+}
+
+.h3_formule {
+  height: 10rem;
+  width: 12rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:1rem auto 1rem;
+  box-shadow: var(--box-shadow);
+  border-radius: 61% 39% 75% 25% / 71% 29% 71% 29%  ;
+  background-color: var(--button-color);
+  color: var(--main-bg-color);
 }
 
 /********************************************************************* CONTACT *********************************************************************/ 

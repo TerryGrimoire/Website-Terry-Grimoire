@@ -6,7 +6,7 @@ const ExpertiseData = [
     img: "https://media2.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=ecf05e47iv7d6wz6o6xwo2qep88pci80l3py1fz3zrmk497e&rid=giphy.gif&ct=g",
     alt: "developpeur en train de coder sur son ordinateur",
     content:
-      "Nous vous proposons la création d'un site internet sur mesure adapté à l'image et aux besoins de votre entreprise. Optimisé pour tous les formats d'écran, que ce soit mobile, tablette et ordinateur. Que vous aillez besoin d'un portefolio, d'un site vitrine ou d'un site marchand, pour chacun de vos besoins, nous avons une solution.",
+      "Nous vous proposons un site internet simple, efficace et allant droit au but. Notre objectif étant de vous aider grandir via la digitalisation de votre entreprise.",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const ExpertiseData = [
     img: "https://media2.giphy.com/media/Rs0JBoGpPxMAlnVc8y/giphy.gif?cid=790b76110a40d6de6d1554f218bf99f631e6af84649c4367&rid=giphy.gif&ct=g",
     alt: "main qui dessine des fleurs avec une animation qui s'envole",
     content:
-      "Afin que votre site internet soit à votre image et vous représente le mieux possible, nous vous proposons plusieurs formules pour la création de votre maquette. De la personalisation simple au plus poussé, c'est ensemble que nous construirons le visuel de votre projet.",
+      "Designer pour mieux régner. Un site au design impecable attire davantage de clients et vous permet de gagner en crédibilité. Nos experts vous accompagnent pour booster votre image numérique via la conception de maquettes sur mesure.",
   },
   {
     id: 3,
@@ -29,11 +29,11 @@ const ExpertiseData = [
   {
     id: 4,
     link: "/Services",
-    title: "Réseaux sociaux",
+    title: "Marketing Digital",
     img: "https://media3.giphy.com/media/jy84ooas89SNJXSOgN/giphy.gif?cid=ecf05e47graxm7xvy3fc8lj04m5kpo50x29pf8vvtno2pb8x&rid=giphy.gif&ct=g",
     alt: "Mains dans lesquelles ont voit des portables qui sont sur des réseaux sociaux",
     content:
-      "La présence en ligne d'une entreprise est aujourd'hui indispensable. Que ce soit via Google Mybusiness, sur les réseaux sociaux tels que Facebook, Linkedin ou encore Instagram, il ne faut négliger l'impact de sa présence en ligne sur votre business.",
+      "La présence en ligne d'une entreprise est aujourd'hui indispensable. Que ce soit via Google Mybusiness, Linkedin ou encore Facebook et Instagram, il ne faut pas négliger l'impact de la présence en ligne de votre entreprise.",
   },
 ];
 

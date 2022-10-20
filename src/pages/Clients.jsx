@@ -7,7 +7,7 @@ function Clients() {
   }, []);
   return (
     <section className="flex flex-col align-center justify-center clients_container">
-      <h2>Ils nous font confiance</h2>
+      <h1>Ils nous font confiance</h1>
       {clientsData.map((client) => (
         <div className="flex flex-col align-center justify-center">
           <a href={client.links}>

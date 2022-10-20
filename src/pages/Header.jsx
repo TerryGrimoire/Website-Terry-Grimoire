@@ -3,12 +3,13 @@ import { Link } from "react-router-dom";
 import menu from "../assets/menu.png";
 import fermer from "../assets/fermer.png";
 import logo from "../assets/GN.png";
+import enveloppe from "../assets/enveloppe.png";
 
 function Header() {
   const [openBurger, setOpenBurger] = useState(false);
   return (
     <header className="container">
-      <div className="flex align-center justify-between">
+      <div className="flex align-start justify-between padding05">
         <button
           type="button"
           className="no_button"
@@ -25,6 +26,13 @@ function Header() {
             src={logo}
             alt="logo de Grimoire numérique avec un livre ouvert qui ressort des petites planetes avec le signe www"
             className="logo"
+          />
+        </Link>
+        <Link to="/Contact">
+          <img
+            src={enveloppe}
+            alt="enveloppe pour être contacté"
+            className="enveloppe"
           />
         </Link>
       </div>
@@ -70,7 +78,7 @@ function Header() {
               onClick={() => setOpenBurger(false)}
             >
               <Link to="/Services">
-                <li className="navlinks">Services</li>
+                <li className="navlinks">Nos offres</li>
               </Link>
             </button>
             <button

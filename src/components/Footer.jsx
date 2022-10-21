@@ -33,13 +33,25 @@ function Footer() {
           <div className="flex flex-col align-start">
             <h4>Nous retrouver</h4>
             <div className="flex">
-              <a href="https://www.linkedin.com/in/terry-grimoire/">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.linkedin.com/in/terry-grimoire/"
+              >
                 <img src={linkedin} alt="Linkedin" />
               </a>
-              <a href="https://github.com/TerryGrimoire">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/TerryGrimoire"
+              >
                 <img src={github} alt="Github" />
               </a>
-              <a href="https://grimoire-terry.netlify.app/">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://grimoire-terry.netlify.app/"
+              >
                 <img src={portefolio} alt="Portefolio" />
               </a>
             </div>

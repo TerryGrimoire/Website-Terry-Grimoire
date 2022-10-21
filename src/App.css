@@ -153,6 +153,9 @@ th {
 .marginbottom2 {
   margin: 3rem 0;
 }
+.margin5r0 {
+  margin: 5rem 0;
+}
 .padding05 {
   padding: 0.5rem;
 }
@@ -234,14 +237,6 @@ th {
   height: 100vh;
 }
 
-.Kréol {
-  transition: 2s;
-}
-
-.Français {
-  transition: 2s;
-}
-
 .h1_home {
   text-align: right;
 }
@@ -314,6 +309,12 @@ width: 15rem;
     align-items: center;
     justify-content: center;
     margin: 2rem auto;
+  }
+
+  .span_blue {
+    font-size: 2rem;
+    color: var(--button-color);
+    padding: 0 0.25rem 0 ;
   }
 /********************************************************************* SERVICES *********************************************************************/ 
 
@@ -442,8 +443,242 @@ margin: 1rem 0;
 
 @media screen and (min-width: 768px) {
 
-  body {
-    padding: 0 5rem
+  /************************************************************ HOME *********************************************************************/
+
+  .landingpage_container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    height: min-content;
+  }
+
+  .landingpage_container * {
+    background-color: transparent;
   }
   
+  .h1_home {
+    text-align: right;
+    font-size: 20vh;
+    padding: 0 0 0 10rem;
+    line-height:1;
+  }
+
+.avantage_container {
+    flex-direction: row-reverse;
+    justify-content:center ;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 25vh;
+    margin: 0;
+  }
+
+
+  .avantage_container > div.justify-evenly {
+    width: 30%;
+    padding: 0 3rem;
+  }
+
+  .buttons_container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .h2_home {
+    font-weight: bold;
+      font-size: 10vh;
+      height: 10rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: none;
+  }
+
+  .first_h2_home {
+    display: none;
+  }
+  
+  .first_h3_home {
+    font-size: 1.2rem;
+    color: var(--third-color);
+    text-align: right;
+
+  }
+  
+  .grimoire_magique {
+  height: 60vh;
+  width: auto;
+  transition: all 2s ease-in-out;
+  }
+
+  .p_home {
+    color: var(--third-color);
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+  
+  .check {
+      margin: 2rem 0.5rem 2.5rem 0;
+      width: 2.5rem;
+    }
+
+    .expertise_container, .chiffres_container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+
+  .expertise_container {
+    background-color: var(--button-color);
+    margin: -3rem;
+    padding: 2rem;
+  }
+
+  .expertise_bg .h2_home {
+    background-color: var(--button-color);
+    color: var(--main-bg-color);
+    margin: -3rem;
+  }
+
+  .chiffres_container article {
+    height: fit-content;
+    width: 18vw;
+    margin: 1rem 2rem;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: var(--box-shadow);
+    border-radius: 0.5rem;
+  }
+    .article_home {
+      height: fit-content;
+      width: 25%;
+      margin: 1rem 2rem;
+      padding: 2rem 0;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      box-shadow: var(--box-shadow);
+      border-radius: 0.5rem;
+    }
+
+    .article_home .p_home {
+      font-size: 2vh;
+      font-weight: normal;
+      height: 20vh;
+
+    }
+    .article_home button {
+      margin: 1rem 0 0;
+    }
+    .article_home p{
+ padding: 0 3rem;
+    }
+    .article_home img {
+      box-shadow: var(--box-shadow);
+      border-radius:30% 70% 44% 56% / 30% 44% 56% 70% ;
+      height: 30vh;
+      width: auto;
+    }
+  
+    .partenaire_image {
+      height: 7rem;
+    border-radius: 50%;
+    box-shadow: var(--box-shadow);
+    }
+  
+    .formules_container *{
+      margin: 1rem 0;
+    }
+  
+    .chiffre {
+      font-weight: bold;
+      font-size: 3rem;
+      text-align: center;
+      box-shadow: var(--box-shadow);
+      border-radius:30% 70% 44% 56% / 30% 44% 56% 70% ;
+      width: 8rem;
+      height: 8rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 2rem auto;
+    }
+  
+    .span_blue {
+      font-size: 2rem;
+      color: var(--button-color);
+      padding: 0 0.25rem 0 ;
+    }
+
+  /************************************************************ SERVICES *********************************************************************/
+  .prix {
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  .service_main_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .service_main_container > div {
+    box-shadow: var(--box-shadow);
+    width: 25vw;
+    margin: 2rem;
+    padding: 2rem 1rem;
+
+  }
+
+.h3_formule {
+  height: 10rem;
+  width: 12rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:1rem auto 1rem;
+  box-shadow: var(--box-shadow);
+  border-radius: 61% 39% 75% 25% / 71% 29% 71% 29%  ;
+  background-color: var(--button-color);
+  color: var(--main-bg-color);
+}
+
+  /********************************************************************* CLIENTS *********************************************************************/ 
+
+.clients_container {
+  padding: 2rem 3rem;
+}
+.clients_container * {
+margin: 1rem 0;
+}
+
+.clients_main_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.clients_main_container > div {
+  width: 20vw;
+  height: 60vh;
+  margin: 2rem 5rem;
+  padding: 0 3rem 1rem;
+  box-shadow: var(--box-shadow);
+}
+.clients_image {
+  width: 10rem;
+  border-radius: 50%;
+  box-shadow: var(--box-shadow);
+}
+
+  /********************************************************************* CONTACT *********************************************************************/ 
+.contact_container {
+  overflow-x: hidden;
+}
+
 }

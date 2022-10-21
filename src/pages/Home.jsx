@@ -54,9 +54,9 @@ export default function Home() {
         />
       </section>
 
-      <section className="margin1r0 vh100 flex-col justify-evenly">
-        <h2 className="h2_home">Nos avantages ✌️</h2>
-        <div className="flex align-center justify-evenly">
+      <section className="margin1r0 vh100 flex-col justify-evenly avantage_container">
+        <h2 className="h2_home first_h2_home">Nos avantages ✌️</h2>
+        <div className="flex align-center justify-evenly ">
           <img src={coche} alt="coche" className="check" />
           <p className="p_home">
             <span>Rapide et efficace.</span> Un site internet possible en 48
@@ -77,7 +77,7 @@ export default function Home() {
             marché.
           </p>
         </div>
-        <div className="flex align-center justify-between margin1r0">
+        <div className="flex align-center justify-between margin1r0 buttons_container">
           <Link to="/contact">
             <button type="button" className="button_style white">
               Prendre RDV
@@ -91,31 +91,37 @@ export default function Home() {
         </div>
       </section>
 
-      <section>
+      <section className="margin5r0 expertise_bg">
         <h2 className="h2_home">Notre expertise 🪄</h2>
-
-        {expertiseData.map((expertise) => (
-          <article className="flex-col align-center article_home">
-            <h3>{expertise.title}</h3>
-            <img src={expertise.img} alt={expertise.alt} />
-            <p className="p_home">{expertise.content}</p>
-            <Link to="/Services">
-              <button type="button" className="button_style blue margin2r0">
-                Découvrir nos offres
-              </button>
-            </Link>
-          </article>
-        ))}
+        <div className="expertise_container">
+          {expertiseData.map((expertise) => (
+            <article className="flex-col align-center article_home">
+              <h3>{expertise.title}</h3>
+              <img src={expertise.img} alt={expertise.alt} />
+              <p className="p_home">{expertise.content}</p>
+              <Link to="/Services">
+                <button type="button" className="button_style blue margin2r0">
+                  Découvrir nos offres
+                </button>
+              </Link>
+            </article>
+          ))}
+        </div>
       </section>
       <section>
         <h2 className="h2_home">Quelques chiffres#️⃣</h2>
 
-        {servicesData.map((chiffre) => (
-          <article className="margin2r0 flex-col">
-            <span className="chiffre"> {chiffre.title}</span>
-            <p>{chiffre.description}</p>
-          </article>
-        ))}
+        <div className="chiffres_container">
+          {servicesData.map((chiffre) => (
+            <article className="margin2r0 flex-col">
+              <p className="chiffre">
+                {chiffre.title}
+                <span className="span_blue"> {chiffre.plus} </span>
+              </p>
+              <p>{chiffre.description}</p>
+            </article>
+          ))}
+        </div>
       </section>
       <section>
         <h2 className="h2_home">Nos clients 🤝</h2>

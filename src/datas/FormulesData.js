@@ -12,12 +12,11 @@ const formulesData = [
       domaine: "✔️",
       web: "✔️",
       mobile: "✔️",
-      hebergement: "❌",
+      hebergement: "10€/mois",
       pages: "1-3",
       remboursement: "✔️",
       contact: "❌",
       reseaux: "❌",
-      autre: "10€/mois pour l'hébergement",
     },
   },
   {
@@ -39,7 +38,6 @@ const formulesData = [
       remboursement: "✔️",
       contact: "✔️",
       reseaux: "✔️",
-      autre: "Aucun paiement mensuel",
     },
   },
   {
@@ -59,7 +57,6 @@ const formulesData = [
       remboursement: "❌",
       contact: "❌",
       reseaux: "❌",
-      autre: "Paiement initial de 150.00 €",
     },
   },
 ];

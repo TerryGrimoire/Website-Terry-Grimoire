@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
+import Helmet from "react-helmet";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
@@ -39,6 +40,14 @@ export default function Home() {
   };
   return (
     <main className="main_container">
+      <Helmet>
+        <title> Grimoire Numérique | Accueil </title>
+        <link rel="canonical" href="https://grimoire-numerique.re" />
+        <meta
+          name="description"
+          content="Le Grimoire Numérique a pour but d'aider les petites et moyennes entreprises réunionnaises à grandir et gagner en visibilité. Pour se faire, nous proposons des services de création de site internet rapide et peu cher et nous proposons également des interventions pour améliorer votre présence en ligne, via les réseaux sociaux et autres outils digitaux."
+        />
+      </Helmet>
       <section className="landingpage_container">
         <div>
           <h1 className="h1_home">GRIMOIRE NUMÉRIQUE</h1>

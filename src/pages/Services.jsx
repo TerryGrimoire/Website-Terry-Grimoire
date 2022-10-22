@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
+import Helmet from "react-helmet";
 import formulesData from "../datas/FormulesData";
 
 function Services() {
@@ -8,6 +9,14 @@ function Services() {
   }, []);
   return (
     <section className="margin0r1r">
+      <Helmet>
+        <title> Grimoire Numérique | Nos offres </title>
+        <link rel="canonical" href="https://grimoire-numerique.re/Services" />
+        <meta
+          name="description"
+          content="Retrouvez toutes nos offres à partir de 120.00 € avec le remboursement du chèque numérique de La Région Réunion."
+        />
+      </Helmet>
       <h1 className="h1">Nos offres</h1>
       <div className="service_main_container">
         {formulesData.map((formule) => (

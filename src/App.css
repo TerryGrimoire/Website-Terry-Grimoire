@@ -166,6 +166,7 @@ th {
   height: 100vh;
 }
 /********************************************************************* NAV *********************************************************************/ 
+.desktop { display: none;}
 
 .menu_burger {
   height: 1.5rem;
@@ -467,7 +468,7 @@ margin: 1rem 0;
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
-    height: min-content;
+    height: calc(60vh);
   }
 
   .landingpage_container * {
@@ -486,7 +487,7 @@ margin: 1rem 0;
     justify-content:center ;
     align-items: center;
     flex-wrap: wrap;
-    height: 25vh;
+    height: 30vh;
     margin: 0;
   }
 
@@ -698,5 +699,40 @@ margin: 1rem 0;
 .contact_container {
   overflow-x: hidden;
 }
+  /********************************************************************* HEADER *********************************************************************/ 
+  .desktop {
+    display: initial;
+  }
+  .mobile {
+  display: none;
+}
 
+.nav_desktop nav{
+  height: 8vh;
+  overflow: hidden;
+}
+.nav_desktop * {
+  background-color: var(--secondary-bg-color);
+  color: var(--main-bg-color);
+}
+
+.nav_desktop button.blue {
+  background-color: var(--button-color);
+  padding: 0.75rem;
+  margin: 0.5rem 1rem;
+  border-radius: 0.25rem;
+}
+
+.logo {
+  margin: 0.5rem;
+  background-color: var(--main-bg-color);
+  border-radius: 50%;
+  height: 4vh;
+}
+
+.navlinks {
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  border-bottom: none;
+}
 }

@@ -64,7 +64,7 @@ export default function Home() {
       </section>
 
       <section className="margin1r0 vh100 flex-col justify-evenly avantage_container">
-        <h2 className="h2_home first_h2_home">Nos avantages ✌️</h2>
+        <h2 className="h2_home first_h2_home">NOS AVANTAGES</h2>
         <div className="flex align-center justify-evenly ">
           <img src={coche} alt="coche" className="check" />
           <p className="p_home">
@@ -101,7 +101,7 @@ export default function Home() {
       </section>
 
       <section className="margin5r0 expertise_bg">
-        <h2 className="h2_home">Notre expertise 🪄</h2>
+        <h2 className="h2_home">NOTRE EXPERTISE</h2>
         <div className="expertise_container">
           {expertiseData.map((expertise) => (
             <article className="flex-col align-center article_home">
@@ -118,7 +118,7 @@ export default function Home() {
         </div>
       </section>
       <section>
-        <h2 className="h2_home">Quelques chiffres#️⃣</h2>
+        <h2 className="h2_home">QUELQUES CHIFFRES</h2>
 
         <div className="chiffres_container">
           {servicesData.map((chiffre) => (
@@ -133,7 +133,7 @@ export default function Home() {
         </div>
       </section>
       <section>
-        <h2 className="h2_home">Nos clients 🤝</h2>
+        <h2 className="h2_home">NOS CLIENTS</h2>
         <Link to="/Clients">
           <AliceCarousel
             autoPlay

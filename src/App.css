@@ -232,6 +232,7 @@ th {
 /********************************************************************* HOME *********************************************************************/ 
 .main_container {
   padding: 1rem 3rem;
+  overflow-x: hidden;
 }
 
 .landingpage_container {
@@ -284,7 +285,7 @@ width: 15rem;
   .article_home img {
     box-shadow: var(--box-shadow);
     border-radius:30% 70% 44% 56% / 30% 44% 56% 70% ;
-    width: 22rem;
+    width: 90vw;
     margin: 3rem 0;
   }
 
@@ -508,10 +509,11 @@ margin: 1rem 0;
     font-weight: bold;
       font-size: 10vh;
       height: 10rem;
+      margin: 2rem 0;
       display: flex;
       align-items: center;
-      justify-content: center;
-      padding: none;
+      justify-content: flex-start;
+      padding: 0 0 0 6rem;
   }
 
   .first_h2_home {
@@ -558,9 +560,12 @@ margin: 1rem 0;
   .expertise_bg .h2_home {
     background-color: var(--button-color);
     color: var(--main-bg-color);
-    margin: -3rem;
-  }
+    margin: 5rem -3rem 0;
+    padding: 2rem 0 5rem 9rem;
+    text-align: left;
+    justify-content: flex-start;
 
+  }
   .chiffres_container article {
     height: fit-content;
     width: 18vw;
@@ -727,7 +732,7 @@ margin: 1rem 0;
   margin: 0.5rem;
   background-color: var(--main-bg-color);
   border-radius: 50%;
-  height: 4vh;
+  height: 6vh;
 }
 
 .navlinks {

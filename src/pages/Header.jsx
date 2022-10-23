@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import menu from "../assets/menu.png";
 import fermer from "../assets/fermer.png";
-import logo from "../assets/GN.png";
+import logo from "../assets/favicon.png";
 import enveloppe from "../assets/enveloppe.png";
 
 function Header() {

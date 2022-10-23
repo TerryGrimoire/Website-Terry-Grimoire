@@ -40,7 +40,7 @@ const partenairesData = [
     alt: "Logo de We Rev Art",
     links: "https://werevart.netlify.app/",
     description:
-      "We Rev Art est une plateforme de mise en relation entre des artistes digitaux et des artistes traditionels. Nous avons suivi à la lettre la maquette fourni par Alexandre afin de lui fournir un site aussi fidèle possible à ses besoins.",
+      "We Rev Art est une plateforme de mise en relation entre des artistes digitaux et des artistes traditionels. Nous avons suivi à la lettre la maquette fourni par Alexandre afin de lui fournir un site fidèle à ses besoins.",
   },
   {
     id: 5,
@@ -49,7 +49,7 @@ const partenairesData = [
     alt: "Logo de ATAS SINTIR MET CASK",
     links: "https://atas-sintir-met-kask.netlify.app/",
     description:
-      "A mi - chemin entre documentaire et journal de bord, Atas Sintir Met Kask vous invite à poser avec Choé un regard nouveau sur la Réunion d’aujourd’hui et à aller à la rencontre de celles et ceux qui feront la Réunion de demain.",
+      "A mi - chemin entre documentaire et journal de bord, ASMK vous invite à poser avec Choé un regard nouveau sur la Réunion d’aujourd’hui et à aller à la rencontre de celles et ceux qui feront la Réunion de demain.",
   },
   {
     id: 6,

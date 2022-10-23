@@ -29,7 +29,7 @@ const ExpertiseData = [
   {
     id: 3,
     link: "/Services",
-    title: "Apprendre Excel",
+    title: "Initiation à Excel",
     img: "https://media4.giphy.com/media/xvBv5pU4djudjF0ri8/giphy.gif?cid=ecf05e470d91nhu91zt7kw47v0r194nsw0rbqzonxqjajqo2&rid=giphy.gif&ct=s",
     alt: "Mains dans lesquelles ont voit des portables qui sont sur des réseaux sociaux",
     content:
@@ -38,7 +38,7 @@ const ExpertiseData = [
   {
     id: 3,
     link: "/Services",
-    title: "Initiation Réseaux sociaux",
+    title: "Initiation aux réseaux sociaux",
     img: "https://media1.giphy.com/media/huyZxIJvtqVeRp7QcS/giphy.gif?cid=ecf05e47ube3as248q9zq7w9slq90ck2fdwtc3uf8dx7uh2y&rid=giphy.gif&ct=g",
     alt: "Mains dans lesquelles ont voit des portables qui sont sur des réseaux sociaux",
     content:
@@ -47,7 +47,7 @@ const ExpertiseData = [
   {
     id: 3,
     link: "/Services",
-    title: "Apprendre à négocier",
+    title: "Initiation à la négociation",
     img: "https://media1.giphy.com/media/3o6nV3joqXzMkfkXrW/giphy.gif?cid=ecf05e47ccpzwt6e4tn6r49vdh21st12845n4o7sij12e549&rid=giphy.gif&ct=g",
     alt: "Mains dans lesquelles ont voit des portables qui sont sur des réseaux sociaux",
     content:

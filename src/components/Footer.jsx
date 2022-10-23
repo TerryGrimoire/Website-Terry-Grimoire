@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import github from "../assets/github.svg";
+import github from "../assets/github.png";
 import linkedin from "../assets/linkedin.svg";
 import portefolio from "../assets/portefolio.png";
 
@@ -8,7 +8,7 @@ function Footer() {
   return (
     <footer>
       <nav className="footer flex-col align-start justify-start">
-        <h3>GRIMOIRE</h3>
+        <h3>GRIMOIRE NUMÉRIQUE</h3>
         <section className="flex justify-between footer-section">
           <div className="flex flex-col align-start justify-start">
             <h4>Plan du site</h4>

@@ -32,7 +32,7 @@ const servicesData = [
     title: "81",
     plus: "%",
     description:
-      "des entreprises qui ont font faillite en France n’avaient pas de site internet.",
+      "des entreprises qui ont fait faillite en France n’avaient pas de site internet.",
   },
   {
     id: 6,

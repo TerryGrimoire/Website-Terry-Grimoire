@@ -134,16 +134,18 @@ export default function Home() {
       </section>
       <section>
         <h2 className="h2_home">Nos clients 🤝</h2>
-        <AliceCarousel
-          autoPlay
-          disableButtonsControls
-          disableDotsControls
-          disableSlideInfo
-          infinite
-          responsive={responsive}
-          items={items}
-          animationDuration="6000"
-        />
+        <Link to="/Clients">
+          <AliceCarousel
+            autoPlay
+            disableButtonsControls
+            disableDotsControls
+            disableSlideInfo
+            infinite
+            responsive={responsive}
+            items={items}
+            animationDuration="6000"
+          />
+        </Link>
       </section>
     </main>
   );

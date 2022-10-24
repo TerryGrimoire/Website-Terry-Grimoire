@@ -1,53 +1,59 @@
-import monopage from "../assets/monopage.gif";
-import vitrine from "../assets/vitrine.gif";
-import transactionnel from "../assets/transactionnel.gif";
-import refonte from "../assets/refonte.gif";
-// import logiciel from "../assets/logiciel.png";
-import analyse from "../assets/analyse.gif";
-import marketing from "../assets/marketing.gif";
-
 const servicesData = [
   {
     id: 1,
-    title: "Un site monopage",
-    img: monopage,
+    title: "100",
+    plus: "%",
     description:
-      "Un site monopage peut être parfaitement adapté pour un portefolio, un CV en ligne, un site vitrine pour une association, une petite entreprise, etc.",
+      "Contrairement aux réseaux sociaux, un site est accessible par 100% des utilisateurs.",
   },
   {
     id: 2,
-    title: "Un site vitrine",
-    img: vitrine,
+    title: "24",
+    plus: "h",
     description:
-      "Un site vitrine va être consttitué de plusieurs pages et aura pour but principal de présenter l'organisme ou la personne en question. On peut y retrouver plus d'informations ou détails qu'un site monopage (ex: contact, à propos, carte d'un restaurant ou bar, etc.) ",
+      "Un site internet c'est une publicité disponible de n'importe où 24h/24 et 7j/7.",
   },
   {
     id: 3,
-    title: "Un site  transactionnel",
-    img: transactionnel,
+    title: "84",
+    plus: "%",
     description:
-      "Un site transactionnel comme son nom l'indique est un site destiné à la vente de produits ou services en ligne. Ce genre de site demandent plus de temps et plus de travail car les transactions exigent un travail de sécurisation.",
+      "des français pensent qu’un site web rend votre entreprise plus crédible.",
   },
   {
     id: 4,
-    title: "Refonte d'un site déjà existant",
-    img: refonte,
+    title: "120",
+    plus: "€",
     description:
-      "Vous possédez déjà un site internet mais celui-ci est vieillissant et mériterait une touche de modernisation, vous pouvez faire appel à nos services pour transformer le design de votre site web.",
+      "C'est le prix final de votre site grâce au chèque numérique de la Région.",
   },
   {
     id: 5,
-    title: "Analyse de données",
-    img: analyse,
+    title: "81",
+    plus: "%",
     description:
-      "Les données de nos jours sont la voie vers la réussite pour votre entreprise. Grâce à elles, vous pouvez prendre des décisions stratégiques en ayant une meilleure vision de la réalité. Pour cela, encore faut-il être en mesure d'exploiter ses données et de les faire parler. C'est là que notre équipe intervient en analysant vos données et en créant des dashboards lisibles et compréhensibles vous permettant de mieux appréhender vos décisions importantes.",
+      "des entreprises qui ont fait faillite en France n’avaient pas de site internet.",
   },
   {
     id: 6,
-    title: "Le marketing digital via les réseaux sociaux",
-    img: marketing,
+    title: "2",
+    plus: "x",
     description:
-      "La présence en ligne de votre entreprise ou association est primordiale. Les réseaux sociaux jouent un rôle important dans le développement de votre business et il ne faut pas négliger l'impact qu'ils peuvent avoir sur votre chiffre d'affaire. Que ce soit Linkedin, Google My business, Facebook ou encore Instagram, nous vous aidons à créer et optimiser votre marketing digital.",
+      "moins cher que nos concurrents pour rendre la transition accessible à tous.",
+  },
+  {
+    id: 7,
+    title: "6",
+    plus: "h",
+    description:
+      "par jour, c'est le temps moyen que passent les français sur internet.",
+  },
+  {
+    id: 8,
+    title: "86",
+    plus: "%",
+    description:
+      "des réunionnais utilisent internet sur leur ordinateur ou téléphone portable.",
   },
 ];
 

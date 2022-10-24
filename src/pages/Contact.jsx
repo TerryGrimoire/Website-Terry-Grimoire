@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Helmet from "react-helmet";
 import Form from "../components/Form";
 
 function Contact() {
@@ -7,8 +8,16 @@ function Contact() {
   }, []);
   const [rdv, setRdv] = useState(true);
   return (
-    <div className="flex flex-col align-center">
-      <h2>Nous joindre</h2>
+    <div className="flex flex-col align-center contact_container">
+      <Helmet>
+        <title> Grimoire Numérique | Contact </title>
+        <link rel="canonical" href="https://grimoire-numerique.re/Contact" />
+        <meta
+          name="description"
+          content="Contactez nous par email, téléphone ou en prenant RDV directement via notre agenda en ligne."
+        />
+      </Helmet>
+      <h1 className="h1">Nous joindre</h1>
       <section>
         <div className="flex justify-center margin1r0 ">
           <button
@@ -31,6 +40,7 @@ function Contact() {
             src="https://calendly.com/terry-grimoire/30min?month=2022-08"
             frameBorder="0"
             title="calendly terry grimoire"
+            scrolling="no"
           />
         ) : (
           <Form />

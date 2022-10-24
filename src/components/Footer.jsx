@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import github from "../assets/github.svg";
+import github from "../assets/github.png";
 import linkedin from "../assets/linkedin.svg";
 import portefolio from "../assets/portefolio.png";
 
@@ -8,7 +8,7 @@ function Footer() {
   return (
     <footer>
       <nav className="footer flex-col align-start justify-start">
-        <h3>GRIMOIRE</h3>
+        <h3>GRIMOIRE NUMÉRIQUE</h3>
         <section className="flex justify-between footer-section">
           <div className="flex flex-col align-start justify-start">
             <h4>Plan du site</h4>
@@ -18,7 +18,7 @@ function Footer() {
               </Link>
 
               <Link to="/Services">
-                <li>Services</li>
+                <li>Nos offres</li>
               </Link>
 
               <Link to="/Clients">
@@ -33,13 +33,25 @@ function Footer() {
           <div className="flex flex-col align-start">
             <h4>Nous retrouver</h4>
             <div className="flex">
-              <a href="https://www.linkedin.com/in/terry-grimoire/">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.linkedin.com/in/terry-grimoire/"
+              >
                 <img src={linkedin} alt="Linkedin" />
               </a>
-              <a href="https://github.com/TerryGrimoire">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/TerryGrimoire"
+              >
                 <img src={github} alt="Github" />
               </a>
-              <a href="https://grimoire-terry.netlify.app/">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://grimoire-terry.netlify.app/"
+              >
                 <img src={portefolio} alt="Portefolio" />
               </a>
             </div>

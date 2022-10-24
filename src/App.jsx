@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./pages/Header";
 import Footer from "./components/Footer";
@@ -10,17 +11,35 @@ import Mentions from "./pages/Mentions";
 import "./App.css";
 
 function App() {
+  const [language, setLanguage] = useState();
   return (
     <BrowserRouter>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/Services" element={<Services />} />
-        <Route path="/Clients" element={<Clients />} />
-        <Route path="/Contact" element={<Contact />} />
-        <Route path="/Mentions" element={<Mentions />} />
-      </Routes>
-      <Footer />
+      <section>
+        <Header />
+        <Routes>
+          <Route
+            path="/"
+            element={<Home language={language} setLanguage={setLanguage} />}
+          />
+          <Route
+            path="/Services"
+            element={<Services language={language} setLanguage={setLanguage} />}
+          />
+          <Route
+            path="/Clients"
+            element={<Clients language={language} setLanguage={setLanguage} />}
+          />
+          <Route
+            path="/Contact"
+            element={<Contact language={language} setLanguage={setLanguage} />}
+          />
+          <Route
+            path="/Mentions"
+            element={<Mentions language={language} setLanguage={setLanguage} />}
+          />
+        </Routes>
+        <Footer />
+      </section>
     </BrowserRouter>
   );
 }

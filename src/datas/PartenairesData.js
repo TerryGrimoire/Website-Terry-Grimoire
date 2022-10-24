@@ -29,7 +29,7 @@ const partenairesData = [
     title: "Charles Girouard",
     image: charles,
     alt: "Logo de Charles Girouard Portefolio",
-    links: "/",
+    links: "https://charlesgirouard.fr/",
     description:
       "Charles Girouard  est Data Analyst et nous a fait confiance pour construire son portefolio en ligne. Véritable CV qui permetttant à la fois de voir ses expériences mais aussi les différents projets sur lesquels il a travaillé.",
   },

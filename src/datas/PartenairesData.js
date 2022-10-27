@@ -4,6 +4,7 @@ import werevart from "../assets/werevart.png";
 import charles from "../assets/charles.png";
 import ASMK from "../assets/asmk.png";
 import portefolio from "../assets/portefolio.png";
+import barber from "../assets/barber.jpg";
 
 const partenairesData = [
   {
@@ -17,12 +18,12 @@ const partenairesData = [
   },
   {
     id: 2,
-    title: "La plaisir",
-    image: plaisir,
-    alt: "Logo de la plaisir bistrot queer",
+    title: "Barber 902",
+    image: barber,
+    alt: "Logo de Barber 902",
     description:
-      "Le Plaisir est un bistrot qui vient tout juste de souffler sa première bougie. C'était également l'occasion pour elle de lancer son site internet pour plus de visibilité.",
-    links: "https://laplaisir.netlify.app/",
+      "Barber 902 est un coiffeur et barbier nantais qui vous accueillent avec le sourire dans un salon au mobilier tendance vintage qui vous donnera envie de revenir toutes les semaines.",
+    links: "https://barber902.netlify.app/",
   },
   {
     id: 3,
@@ -59,6 +60,15 @@ const partenairesData = [
     links: "https://grimoire-portefolio.fr/",
     description:
       "Prenez le temps de visiter mon portefolio ou comme j'aime à l'appeler mon Grimoire. N'hésite pas à bien farfouiner pour trouver les animations dissimulées dans mon Grimoire.",
+  },
+  {
+    id: 7,
+    title: "La plaisir",
+    image: plaisir,
+    alt: "Logo de la plaisir bistrot queer",
+    description:
+      "Le Plaisir est un bistrot qui vient tout juste de souffler sa première bougie. C'était également l'occasion pour elle de lancer son site internet pour plus de visibilité.",
+    links: "https://laplaisir.netlify.app/",
   },
 ];
 

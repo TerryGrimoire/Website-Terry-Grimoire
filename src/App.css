@@ -46,7 +46,7 @@ a {
   color: var(--button-color);
   text-decoration: underline;
   font-weight: bold;
-  padding-left:0.51rem;
+  margin-left:0.51rem;
 }
 li {
   list-style: none;
@@ -433,9 +433,29 @@ margin: 1rem 0;
 }
 
 .mentions {
+  text-align: center; 
+  padding: 0 1rem;
+}
+
+.droits {
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.designer {
   text-align: center;
   width: 100%;
-  margin: 2rem 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.w100 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
 }
 
 /********************************************************************* MENTIONS *********************************************************************/ 
@@ -446,6 +466,7 @@ margin: 1rem 0;
 .mentions > * {
   padding: 2rem 0;
 }
+
 
 
 
@@ -740,4 +761,5 @@ margin: 1rem 0;
   font-size: 1rem;
   border-bottom: none;
 }
+
 }

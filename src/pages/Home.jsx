@@ -45,7 +45,7 @@ export default function Home() {
         <link rel="canonical" href="https://grimoire-numerique.re" />
         <meta
           name="description"
-          content="Le Grimoire Numérique a pour but d'aider les petites et moyennes entreprises réunionnaises à grandir et gagner en visibilité. Pour se faire, nous proposons des services de création de site internet rapide et peu cher et nous proposons également des interventions pour améliorer votre présence en ligne, via les réseaux sociaux et autres outils digitaux."
+          content="Création de sites internet pour les petites et moyennes entreprises réunionnaises. Une page web pour vous aider à grandir et gagner en visibilité. Nous proposons également des interventions pour améliorer votre présence en ligne, via les réseaux sociaux et autres outils digitaux."
         />
       </Helmet>
       <section className="landingpage_container">

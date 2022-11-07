@@ -32,14 +32,14 @@ function Services() {
                   target="_blank"
                   rel="noreferrer"
                   className="lien"
-                  href="https://regionreunion.com/aides-services/article/le-cheque-numerique"
+                  href="https://regionreunion.com/aides-services/article/le-cheque-numerique-devient-le-kap-numerik"
                 >
-                  chèque numérique.
+                  kap numerik.
                 </a>
               </p>
             ) : (
               <p>
-                Paiement initial de <strong>150.00 €</strong>{" "}
+                Paiement initial de <strong>200.00 €</strong>
               </p>
             )}
             <div>

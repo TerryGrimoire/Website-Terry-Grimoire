@@ -50,16 +50,31 @@ function Footer() {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://grimoire-terry.netlify.app/"
+                href="https://www.terry-grimoire.fr/"
               >
                 <img src={portefolio} alt="Portefolio" />
               </a>
             </div>
           </div>
         </section>
-        <Link to="/Mentions" className="mentions">
-          <p>Mentions légales</p>
-        </Link>
+
+        <div className="w100">
+          <Link to="/Mentions" className="mentions">
+            <small>Mentions légales</small>
+          </Link>
+          <small className="droits">Tous droits réservés ©</small>
+        </div>
+        <small className="designer">
+          Développé et designé par
+          <a
+            href="https://www.terry-grimoire.fr/"
+            target="_blank"
+            rel="noreferrer"
+            className="lien"
+          >
+            Terry Grimoire
+          </a>
+        </small>
       </nav>
     </footer>
   );

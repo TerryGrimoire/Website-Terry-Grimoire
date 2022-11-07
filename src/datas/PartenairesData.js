@@ -1,5 +1,4 @@
 import montecito from "../assets/Montecito.png";
-import plaisir from "../assets/La_plaisir.jpg";
 import werevart from "../assets/werevart.png";
 import charles from "../assets/charles.png";
 import ASMK from "../assets/asmk.png";
@@ -60,15 +59,6 @@ const partenairesData = [
     links: "https://grimoire-portefolio.fr/",
     description:
       "Prenez le temps de visiter mon portefolio ou comme j'aime à l'appeler mon Grimoire. N'hésite pas à bien farfouiner pour trouver les animations dissimulées dans mon Grimoire.",
-  },
-  {
-    id: 7,
-    title: "La plaisir",
-    image: plaisir,
-    alt: "Logo de la plaisir bistrot queer",
-    description:
-      "Le Plaisir est un bistrot qui vient tout juste de souffler sa première bougie. C'était également l'occasion pour elle de lancer son site internet pour plus de visibilité.",
-    links: "https://laplaisir.netlify.app/",
   },
 ];
 

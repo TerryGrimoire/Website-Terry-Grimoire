@@ -11,7 +11,6 @@ function Contact() {
     <div className="flex flex-col align-center contact_container">
       <Helmet>
         <title> Grimoire Numérique | Contact </title>
-        <link rel="canonical" href="https://grimoire-numerique.re/Contact" />
         <meta
           name="description"
           content="Contactez nous par email, téléphone ou en prenant RDV directement via notre agenda en ligne."

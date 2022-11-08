@@ -41,7 +41,7 @@ export default function Home() {
   return (
     <main className="main_container">
       <Helmet>
-        <title> Grimoire Numérique | Accueil </title>
+        <title> Grimoire Numérique | Créateur de sites web à la Réunion </title>
         <link rel="canonical" href="https://grimoire-numerique.re" />
         <meta
           name="description"

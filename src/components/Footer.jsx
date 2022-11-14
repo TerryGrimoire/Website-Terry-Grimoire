@@ -67,7 +67,7 @@ function Footer() {
         </section>
 
         <div className="w100">
-          <Link to="/Mentions" className="mentions">
+          <Link to="/Mentions" className="droits">
             <small>Mentions légales</small>
           </Link>
           <small className="droits">Tous droits réservés 2022 ©</small>

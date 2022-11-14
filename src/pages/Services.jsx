@@ -77,7 +77,7 @@ function Services() {
                     <td>{formule.description.hebergement}</td>
                   </tr>
                   <tr>
-                    <th>Éligible chèque numérique</th>
+                    <th>Éligible kap numérik</th>
                     <td>{formule.description.remboursement}</td>
                   </tr>
                   <tr>

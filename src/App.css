@@ -414,6 +414,10 @@ margin: 1rem 0;
   color: var(--main-bg-color);
 }
 
+.footer-section > * {
+  margin: 1rem 0;
+}
+
 .footer * {
   padding: 0.35rem 0;
   background-color: inherit;
@@ -425,6 +429,7 @@ margin: 1rem 0;
 }
 .footer-section {
   width: 100%;
+  flex-wrap: wrap;
 }
 
 .footer img {

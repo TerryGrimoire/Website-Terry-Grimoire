@@ -12,7 +12,7 @@ function Footer() {
         <h3>GRIMOIRE NUMÉRIQUE</h3>
         <section className="flex justify-between footer-section">
           <div className="flex flex-col align-start justify-start">
-            <h4>Plan du site</h4>
+            <h4>Liens utiles</h4>
             <ul className="flex-col">
               <Link to="/">
                 <li>Accueil</li>
@@ -29,6 +29,24 @@ function Footer() {
               <Link to="/Contact">
                 <li>Contact</li>
               </Link>
+              <Link to="/Contact">
+                <li>Mentions légales</li>
+              </Link>
+            </ul>
+          </div>
+          <div className="flex flex-col align-start justify-start">
+            <h4>Contact</h4>
+            <ul className="flex-col">
+              <a href="mailto:contact@grimoire-numerique.re">
+                <li> 📧 contact@grimoire-numerique.re</li>
+              </a>
+
+              <a href="tel:+262693873050">
+                <li> ☎ 06 93 87 30 50</li>
+              </a>
+              <a href="tel:+262693873050">
+                <li>📍Saint-Denis, La Réunion</li>
+              </a>
             </ul>
           </div>
           <div className="flex flex-col align-start">
@@ -67,9 +85,6 @@ function Footer() {
         </section>
 
         <div className="w100">
-          <Link to="/Mentions" className="droits">
-            <small>Mentions légales</small>
-          </Link>
           <small className="droits">Tous droits réservés 2022 ©</small>
         </div>
         <small className="designer">

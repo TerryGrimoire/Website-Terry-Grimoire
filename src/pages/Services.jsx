@@ -26,15 +26,14 @@ function Services() {
             <small>{formule.description.autre}</small>
             {formule.secondPrice ? (
               <p>
-                * Cela revient à <strong>{formule.secondPrice} </strong> après
-                remboursement du
+                * En ce moment, remboursement de 80 % du prix grâce au
                 <a
                   target="_blank"
                   rel="noreferrer"
                   className="lien"
                   href="https://regionreunion.com/aides-services/article/le-cheque-numerique-devient-le-kap-numerik"
                 >
-                  kap numerik.
+                  kap numérik de la Région Réunion.
                 </a>
               </p>
             ) : (

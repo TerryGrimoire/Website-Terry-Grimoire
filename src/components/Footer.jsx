@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import github from "../assets/github.png";
 import linkedin from "../assets/linkedin.svg";
+import facebook from "../assets/facebook.svg";
 import portefolio from "../assets/portefolio.png";
 
 function Footer() {
@@ -36,7 +37,14 @@ function Footer() {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://www.linkedin.com/in/terry-grimoire/"
+                href="https://www.facebook.com/grimoirenumerique"
+              >
+                <img src={facebook} alt="Linkedin" />
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.linkedin.com/company/grimoire-num%C3%A9rique/"
               >
                 <img src={linkedin} alt="Linkedin" />
               </a>
@@ -62,7 +70,7 @@ function Footer() {
           <Link to="/Mentions" className="mentions">
             <small>Mentions légales</small>
           </Link>
-          <small className="droits">Tous droits réservés ©</small>
+          <small className="droits">Tous droits réservés 2022 ©</small>
         </div>
         <small className="designer">
           Développé et designé par

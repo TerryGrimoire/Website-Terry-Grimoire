@@ -43,7 +43,7 @@ const formulesData = [
   {
     id: 3,
     title: "Formule mensuel",
-    price: "35€/mois",
+    price: "40€/mois",
     bg: "",
     description: {
       maquette: "personalisée",

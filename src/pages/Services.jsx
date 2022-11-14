@@ -14,7 +14,7 @@ function Services() {
         <link rel="canonical" href="https://grimoire-numerique.re/Services" />
         <meta
           name="description"
-          content="Retrouvez toutes nos offres à partir de 120.00 € avec le remboursement du chèque numérique de La Région Réunion."
+          content="Retrouvez toutes nos offres à partir de 120.00 € avec le remboursement du kap numérik de La Région Réunion."
         />
       </Helmet>
       <h1 className="h1">Nos offres</h1>

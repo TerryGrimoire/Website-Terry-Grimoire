@@ -17,14 +17,16 @@ function Services() {
           content="Notre blog vous permet d'avoir des informations sur divers sujets tels que le kap numérik, les membres du Grimoire Numérique, la situation numérique réunionnaise."
         />
       </Helmet>
-      <h1 className="h1">Blog</h1>
+      <h1 className="h1">GRIMOIRE NUMÉRIQUE | BLOG</h1>
       <div className="blog_container">
         {blogData.map((blog) => (
-          <Link to={`/Blog/${blog.id}`}>
-            <h2>{blog.title}</h2>
-            <img src={blog.src} alt={blog.alt} />
-            <p>{blog.description}</p>
-          </Link>
+          <div>
+            <Link to={`/Blog/${blog.id}`}>
+              <h2>{blog.title}</h2>
+              <img src={blog.src} alt={blog.alt} />
+              <button type="button">Lire l'article</button>
+            </Link>
+          </div>
         ))}
       </div>
     </section>

@@ -42,7 +42,7 @@ function Fondateur() {
             ?
           </h2>
           <img src={terry} alt="portrait Terry Grimoire" />
-          <small>18 Novembre 2022 à 17h46</small>
+          <small>21 Novembre 2022 à 12h26</small>
           <article>
             <h3>Zoom sur le fondateur du Grimoire Numérique</h3>
             <p>

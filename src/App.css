@@ -406,16 +406,53 @@ margin: 1rem 0;
   box-shadow: var(--box-shadow);
 }
 /********************************************************************* BLOG *********************************************************************/ 
+
+.blog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .blog_container {
-  padding: 1rem;
+  width: 100%;
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 
-.blog_container h2{
-  margin: 3rem 0 1rem;
+.blog h1 {
+  font-size: 1.6rem;
 }
 
-.blog_container img{
-  width: 80vw;
+.blog h2 {
+  font-size: 1.3rem;
+  color: var(--blog-title);
+  text-align: left;
+}
+
+.blog_container > div {
+width: 80vw;
+margin: 3rem;
+}
+
+.blog_container a {
+  display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+text-align: center;
+}
+
+.blog_container img {
+  width: 100%;
+  margin: 2rem 0;
+}
+
+.blog button {
+    border-radius: 0.25rem;
+    padding: 0.15rem;
 }
 
 /********************************************************************* BLOG 1 - Fondateur *********************************************************************/ 
@@ -817,6 +854,48 @@ margin: 1rem 0;
   border-radius: 50%;
   box-shadow: var(--box-shadow);
 }
+  /********************************************************************* BLOG *********************************************************************/ 
+
+.blog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 5rem;
+}
+.blog_container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin: 2rem;
+}
+.blog_container > div {
+width: 25vw;
+margin: 1rem;
+box-shadow: var(--box-shadow);
+padding: 1rem;
+border-radius: 0.25rem;
+}
+
+.blog_container a {
+  display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+}
+
+.blog_container img {
+  width: 80%;
+  margin: 1rem 0;
+}
+
+.blog button {
+    border-radius: 0.25rem;
+    padding: 0.15rem;
+}
   /********************************************************************* BLOG1 *********************************************************************/ 
 
 .blog1 > div {
@@ -840,6 +919,7 @@ margin: 1rem 0;
   padding: 0.5rem 1rem;
   color: var(--third-color);
 }
+
 .blog1 img {
   width: 100%;
 }
@@ -856,10 +936,14 @@ margin: 1rem 0;
 .mini_blog {
   width: 20vw;
   margin: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .mini_blog img {
   height: 10rem;
+  width: auto;
 }
   /********************************************************************* CONTACT *********************************************************************/ 
 .contact_container {

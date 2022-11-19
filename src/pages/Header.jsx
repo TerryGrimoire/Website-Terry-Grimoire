@@ -52,15 +52,6 @@ function Header() {
               className="no_button"
               onClick={() => setOpenBurger(false)}
             >
-              <Link to="/">
-                <li className="navlinks">Accueil</li>
-              </Link>
-            </button>
-            <button
-              type="button"
-              className="no_button"
-              onClick={() => setOpenBurger(false)}
-            >
               <Link to="/Services">
                 <li className="navlinks">Nos offres</li>
               </Link>
@@ -81,6 +72,15 @@ function Header() {
             >
               <Link to="/Contact">
                 <li className="navlinks">Contact</li>
+              </Link>
+            </button>
+            <button
+              type="button"
+              className="no_button"
+              onClick={() => setOpenBurger(false)}
+            >
+              <Link to="/Blog">
+                <li className="navlinks">Blog</li>
               </Link>
             </button>
             <Link to="/Services">
@@ -109,6 +109,7 @@ function Header() {
           <Link
             to="/"
             className="flex-col jusify-center align-center text-center"
+            onClick={() => setOpenBurger(false)}
           >
             <img
               src={logo}
@@ -118,15 +119,6 @@ function Header() {
             <h1 className="title_nav">GRIMOIRE NUMÉRIQUE</h1>
           </Link>
           <ul className="flex-col ul_links">
-            <button
-              type="button"
-              className="no_button"
-              onClick={() => setOpenBurger(false)}
-            >
-              <Link to="/">
-                <li className="navlinks">Accueil</li>
-              </Link>
-            </button>
             <button
               type="button"
               className="no_button"
@@ -152,6 +144,15 @@ function Header() {
             >
               <Link to="/Contact">
                 <li className="navlinks">Contact</li>
+              </Link>
+            </button>
+            <button
+              type="button"
+              className="no_button"
+              onClick={() => setOpenBurger(false)}
+            >
+              <Link to="/Blog">
+                <li className="navlinks">Blog</li>
               </Link>
             </button>
           </ul>

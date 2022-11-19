@@ -6,6 +6,7 @@
   --secondary-bg-color : #191919;
   --third-color : #524c4c;
   --button-color: #7067CF;
+  --blog-title:  #163860;
   --box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 16px;
 }
 
@@ -404,7 +405,97 @@ margin: 1rem 0;
   border-radius: 50%;
   box-shadow: var(--box-shadow);
 }
+/********************************************************************* BLOG *********************************************************************/ 
+.blog_container {
+  padding: 1rem;
+}
 
+.blog_container h2{
+  margin: 3rem 0 1rem;
+}
+
+.blog_container img{
+  width: 80vw;
+}
+
+/********************************************************************* BLOG 1 - Fondateur *********************************************************************/ 
+.blog1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.blog1 * {
+  max-width: 90vw;
+}
+
+.blog1 h1 {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.blog1 h2 {
+margin: 1rem 0 1rem;
+font-size: 1.35rem;
+line-height: 1.2;
+color: var(--blog-title);
+}
+.blog1 img {
+  max-width: initial;
+  width: 100vw;
+  margin-left: -1.5rem;
+  }
+
+  .blog1 article {
+    padding: 2rem 1rem;
+  }
+
+  .blog1 article p {
+    margin: 2rem 0;
+    font-size: 1rem;
+    color: var(--third-color);
+    line-height: 1.5;
+  }
+
+  .blog1 small {
+    margin-bottom: 2rem;
+  }
+
+  .egalement_container {
+    padding: 0 2rem;
+  }
+
+.mini_blog_container {
+display: flex;
+flex-direction: column-reverse;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+padding: 2rem 0;
+
+}
+  .mini_blog {
+width: 80vw;
+margin: 2rem 0;
+overflow: hidden;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+
+  }
+
+  .mini_blog img {
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  .mini_blog button {
+    border-radius: 0.25rem;
+    padding: 0.15rem;
+  }
 /********************************************************************* FOOTER *********************************************************************/ 
 
 .footer {
@@ -726,7 +817,50 @@ margin: 1rem 0;
   border-radius: 50%;
   box-shadow: var(--box-shadow);
 }
+  /********************************************************************* BLOG1 *********************************************************************/ 
 
+.blog1 > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 15rem;
+}
+
+.blog1 h2 {
+  font-size: 1.8rem;
+  margin: 2rem;
+  text-align: left;
+  width: 100%;
+}
+
+.blog1 small {
+  width: 100%;
+  text-align: right;
+  padding: 0.5rem 1rem;
+  color: var(--third-color);
+}
+.blog1 img {
+  width: 100%;
+}
+
+.egalement_container {
+  padding: 0 10rem;
+}
+.mini_blog_container {
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: space-between;
+}
+
+.mini_blog {
+  width: 20vw;
+  margin: 1rem;
+}
+
+.mini_blog img {
+  height: 10rem;
+}
   /********************************************************************* CONTACT *********************************************************************/ 
 .contact_container {
   overflow-x: hidden;

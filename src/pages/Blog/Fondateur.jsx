@@ -11,12 +11,28 @@ function Fondateur() {
   return (
     <section>
       <Helmet>
-        <title> Grimoire Numérique | Blog </title>
-        <link rel="canonical" href="https://grimoire-numerique.re/Blog" />
+        <title>
+          Le Grimoire Numérique : Qui se cache derrière le Grimoire Numérique ?
+        </title>
+        <link rel="canonical" href="https://grimoire-numerique.re/Blog/1" />
         <meta
           name="description"
-          content="Notre blog vous permet d'avoir des informations sur divers sujets tels que le kap numérik, les membres du Grimoire Numérique, la situation numérique réunionnaise."
+          content="Découvrez Terry Grimoire, fondateur du Grimoire Numérique, réunionnais de retour à La Réunion pour aider les petites et moyennes entreprises dans leur transition digitale en proposant ses services de création de site internet."
         />
+        <meta
+          property="og:url"
+          content="https://grimoire-numerique.re/Blog/1"
+        />
+        <meta property="og:type" content="article" />
+        <meta
+          property="og:title"
+          content="Le Grimoire Numérique : Qui se cache derrière le Grimoire Numérique ?"
+        />
+        <meta
+          property="og:description"
+          content="Découvrez Terry Grimoire, fondateur du Grimoire Numérique, réunionnais de retour à La Réunion pour aider les petites et moyennes entreprises dans leur transition digitale en proposant ses services de création de site internet."
+        />
+        <meta property="og:image" content={terry} />
       </Helmet>
       <main className="blog1">
         <h1 className="h1">GRIMOIRE NUMÉRIQUE | BLOG</h1>
@@ -85,7 +101,7 @@ function Fondateur() {
         </div>
       </main>
       <section className="egalement_container">
-        <h3>À lire prochainement</h3>
+        <h3>À lire également</h3>
         <div className="mini_blog_container">
           {blogData.map((blog) => (
             <div className="mini_blog">

@@ -9,6 +9,7 @@ import Contact from "./pages/Contact";
 import Blog from "./pages/Blog";
 import Fondateur from "./pages/Blog/Fondateur";
 import KapNumerik from "./pages/Blog/KapNumerik";
+import AideNumerik from "./pages/Blog/AideNumerik";
 import Mentions from "./pages/Mentions";
 
 import "./App.css";
@@ -50,6 +51,12 @@ function App() {
             path="/Blog/2"
             element={
               <KapNumerik language={language} setLanguage={setLanguage} />
+            }
+          />
+          <Route
+            path="/Blog/3"
+            element={
+              <AideNumerik language={language} setLanguage={setLanguage} />
             }
           />
           <Route

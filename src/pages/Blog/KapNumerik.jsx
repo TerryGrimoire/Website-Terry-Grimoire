@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Helmet from "react-helmet";
 import blogData from "../../datas/blogData";
 
-function Fondateur() {
+function KapNumerik() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -72,19 +72,21 @@ function Fondateur() {
       <section className="egalement_container">
         <h3>À lire également</h3>
         <div className="mini_blog_container">
-          {blogData.map((blog) => (
-            <div className="mini_blog">
-              <h4>{blog.title}</h4>
-              <img src={blog.src} alt={blog.alt} />
-              <Link to={blog.link}>
-                <button type="button">Lire l'article</button>
-              </Link>
-            </div>
-          ))}
+          {blogData
+            .filter((el) => el.id !== 2)
+            .map((blog) => (
+              <div className="mini_blog">
+                <h4>{blog.title}</h4>
+                <img src={blog.src} alt={blog.alt} />
+                <Link to={blog.link}>
+                  <button type="button">Lire l'article</button>
+                </Link>
+              </div>
+            ))}
         </div>
       </section>
     </section>
   );
 }
 
-export default Fondateur;
+export default KapNumerik;

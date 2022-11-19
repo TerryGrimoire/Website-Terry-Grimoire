@@ -533,6 +533,40 @@ align-items: center;
     border-radius: 0.25rem;
     padding: 0.15rem;
   }
+
+  .blog3_contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .blog3_contact li {
+    margin: 0.5rem ;
+  }
+
+  .blog1 a {
+    text-decoration: underline;
+  }
+
+  .blog1 .button_kapNumerik {
+    max-width: initial;
+    width: 100vw;
+    padding: 1rem 1rem;
+    margin-left: -2rem;
+    border: none;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+  }
+
+ .blog1 .fleche {
+    height: 0.5rem;
+    width: auto;
+    margin: 0 1rem;
+  }
 /********************************************************************* FOOTER *********************************************************************/ 
 
 .footer {

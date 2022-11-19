@@ -87,15 +87,15 @@ function AideNumerik() {
               </p>
             </section>
             <section>
-              <h4>Accompagnement au montage 100% gratuit </h4>
+              <h4>Une prestation 100% gratuite </h4>
               <p>
                 En tant que client du Grimoire Numérique, vous bénéficiez
                 d’office gratuitement et sans frais supplémentaire de notre
                 expertise au sujet du kap numérique. N’hésitez pas à nous
                 contacter en cas de questions à ce sujet.
               </p>
-              <ul>
-                <li className="blog3_contact">
+              <ul className="blog3_contact">
+                <li>
                   <a href="mailto:contact@grimoire-numerique.re">
                     contact@grimoire-numerique.re
                   </a>

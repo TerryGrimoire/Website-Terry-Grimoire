@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Helmet from "react-helmet";
 import blogData from "../../datas/blogData";
+import fleche from "../../assets/fleche.png";
 
 function KapNumerik() {
   useEffect(() => {
@@ -64,7 +65,20 @@ function KapNumerik() {
               </p>
             </section>
             <section>
-              <h4>Le kap numérik : Qui est éligible ?</h4>
+              <div>
+                <button type="button" className="button_kapNumerik">
+                  Entreprise
+                  <img src={fleche} alt="fleche" className="fleche" />
+                </button>
+                <button type="button" className="button_kapNumerik">
+                  Associations
+                  <img src={fleche} alt="fleche" className="fleche" />
+                </button>
+                <button type="button" className="button_kapNumerik">
+                  Auto Entreprise | Entreprise individuelle
+                  <img src={fleche} alt="fleche" className="fleche" />
+                </button>
+              </div>
             </section>
           </article>
         </div>

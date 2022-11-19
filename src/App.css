@@ -6,6 +6,7 @@
   --secondary-bg-color : #191919;
   --third-color : #524c4c;
   --button-color: #7067CF;
+  --blog-title:  #163860;
   --box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 16px;
 }
 
@@ -42,11 +43,12 @@ a {
   text-decoration: none;
   font-weight: initial;
 }
-.lien {
+
+a.lien {
   color: var(--button-color);
   text-decoration: underline;
   font-weight: bold;
-  padding-left:0.51rem;
+  margin-left: 0.5rem;
 }
 li {
   list-style: none;
@@ -403,7 +405,134 @@ margin: 1rem 0;
   border-radius: 50%;
   box-shadow: var(--box-shadow);
 }
+/********************************************************************* BLOG *********************************************************************/ 
 
+.blog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog_container {
+  width: 100%;
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.blog h1 {
+  font-size: 1.6rem;
+}
+
+.blog h2 {
+  font-size: 1.3rem;
+  color: var(--blog-title);
+  text-align: left;
+}
+
+.blog_container > div {
+width: 80vw;
+margin: 3rem;
+}
+
+.blog_container a {
+  display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+text-align: center;
+}
+
+.blog_container img {
+  width: 100%;
+  margin: 2rem 0;
+}
+
+.blog button {
+    border-radius: 0.25rem;
+    padding: 0.15rem;
+}
+
+/********************************************************************* BLOG 1 - Fondateur *********************************************************************/ 
+.blog1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.blog1 * {
+  max-width: 90vw;
+}
+
+.blog1 h1 {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.blog1 h2 {
+margin: 1rem 0 1rem;
+font-size: 1.35rem;
+line-height: 1.2;
+color: var(--blog-title);
+}
+.blog1 img {
+  max-width: initial;
+  width: 100vw;
+  margin-left: -1.5rem;
+  }
+
+  .blog1 article {
+    padding: 2rem 1rem;
+  }
+
+  .blog1 article p {
+    margin: 2rem 0;
+    font-size: 1rem;
+    color: var(--third-color);
+    line-height: 1.5;
+  }
+
+  .blog1 small {
+    margin-bottom: 2rem;
+  }
+
+  .egalement_container {
+    padding: 0 2rem;
+  }
+
+.mini_blog_container {
+display: flex;
+flex-direction: column-reverse;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+padding: 2rem 0;
+
+}
+  .mini_blog {
+width: 80vw;
+margin: 2rem 0;
+overflow: hidden;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+
+  }
+
+  .mini_blog img {
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  .mini_blog button {
+    border-radius: 0.25rem;
+    padding: 0.15rem;
+  }
 /********************************************************************* FOOTER *********************************************************************/ 
 
 .footer {
@@ -411,6 +540,10 @@ margin: 1rem 0;
   align-items: flex-start;
   background-color: var(--secondary-bg-color);
   color: var(--main-bg-color);
+}
+
+.footer-section > * {
+  margin: 1rem 0;
 }
 
 .footer * {
@@ -424,18 +557,39 @@ margin: 1rem 0;
 }
 .footer-section {
   width: 100%;
+  flex-wrap: wrap;
 }
 
 .footer img {
-  width: 3rem;
+  width: 2rem;
   margin: 0 0.25rem;
   box-shadow: var(--box-shadow);
 }
 
 .mentions {
+  text-align: center; 
+  padding: 0 1rem;
+}
+
+.droits {
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.designer {
   text-align: center;
   width: 100%;
-  margin: 2rem 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.w100 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
 }
 
 /********************************************************************* MENTIONS *********************************************************************/ 
@@ -446,6 +600,7 @@ margin: 1rem 0;
 .mentions > * {
   padding: 2rem 0;
 }
+
 
 
 
@@ -699,7 +854,97 @@ margin: 1rem 0;
   border-radius: 50%;
   box-shadow: var(--box-shadow);
 }
+  /********************************************************************* BLOG *********************************************************************/ 
 
+.blog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 5rem;
+}
+.blog_container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin: 2rem;
+}
+.blog_container > div {
+width: 25vw;
+margin: 1rem;
+box-shadow: var(--box-shadow);
+padding: 1rem;
+border-radius: 0.25rem;
+}
+
+.blog_container a {
+  display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+}
+
+.blog_container img {
+  width: 80%;
+  margin: 1rem 0;
+}
+
+.blog button {
+    border-radius: 0.25rem;
+    padding: 0.15rem;
+}
+  /********************************************************************* BLOG1 *********************************************************************/ 
+
+.blog1 > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 15rem;
+}
+
+.blog1 h2 {
+  font-size: 1.8rem;
+  margin: 2rem;
+  text-align: left;
+  width: 100%;
+}
+
+.blog1 small {
+  width: 100%;
+  text-align: right;
+  padding: 0.5rem 1rem;
+  color: var(--third-color);
+}
+
+.blog1 img {
+  width: 100%;
+}
+
+.egalement_container {
+  padding: 0 10rem;
+}
+.mini_blog_container {
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: space-between;
+}
+
+.mini_blog {
+  width: 20vw;
+  margin: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.mini_blog img {
+  height: 10rem;
+  width: auto;
+}
   /********************************************************************* CONTACT *********************************************************************/ 
 .contact_container {
   overflow-x: hidden;
@@ -740,4 +985,5 @@ margin: 1rem 0;
   font-size: 1rem;
   border-bottom: none;
 }
+
 }

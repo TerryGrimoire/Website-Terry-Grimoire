@@ -1,9 +1,9 @@
 import montecito from "../assets/Montecito.png";
-import plaisir from "../assets/La_plaisir.jpg";
 import werevart from "../assets/werevart.png";
 import charles from "../assets/charles.png";
 import ASMK from "../assets/asmk.png";
 import portefolio from "../assets/portefolio.png";
+import barber from "../assets/barber.jpg";
 
 const partenairesData = [
   {
@@ -17,19 +17,19 @@ const partenairesData = [
   },
   {
     id: 2,
-    title: "La plaisir",
-    image: plaisir,
-    alt: "Logo de la plaisir bistrot queer",
+    title: "Barber 902",
+    image: barber,
+    alt: "Logo de Barber 902",
     description:
-      "Le Plaisir est un bistrot qui vient tout juste de souffler sa première bougie. C'était également l'occasion pour elle de lancer son site internet pour plus de visibilité.",
-    links: "https://laplaisir.netlify.app/",
+      "Barber 902 est un coiffeur et barbier nantais qui vous accueillent avec le sourire dans un salon au mobilier tendance vintage qui vous donnera envie de revenir toutes les semaines.",
+    links: "https://barber902.netlify.app/",
   },
   {
     id: 3,
     title: "Charles Girouard",
     image: charles,
     alt: "Logo de Charles Girouard Portefolio",
-    links: "/",
+    links: "https://charlesgirouard.fr/",
     description:
       "Charles Girouard  est Data Analyst et nous a fait confiance pour construire son portefolio en ligne. Véritable CV qui permetttant à la fois de voir ses expériences mais aussi les différents projets sur lesquels il a travaillé.",
   },

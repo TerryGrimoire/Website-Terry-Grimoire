@@ -3,7 +3,7 @@ const formulesData = [
     id: 1,
     title: "Formule Basique",
     price: "600.00 €",
-    secondPrice: "120.00 €",
+    secondPrice: "157.60 €",
     bg: "",
     description: {
       maquette: "basique",
@@ -23,7 +23,7 @@ const formulesData = [
     id: 2,
     title: "Formule Plus",
     price: "1500.00 €",
-    secondPrice: "300.00 €",
+    secondPrice: "394.00 €",
 
     bg: "",
     description: {
@@ -43,7 +43,7 @@ const formulesData = [
   {
     id: 3,
     title: "Formule mensuel",
-    price: "35€/mois",
+    price: "40€/mois",
     bg: "",
     description: {
       maquette: "personalisée",

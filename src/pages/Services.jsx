@@ -14,7 +14,7 @@ function Services() {
         <link rel="canonical" href="https://grimoire-numerique.re/Services" />
         <meta
           name="description"
-          content="Retrouvez toutes nos offres à partir de 120.00 € avec le remboursement du chèque numérique de La Région Réunion."
+          content="Retrouvez toutes nos offres à partir de 120.00 € avec le remboursement du kap numérik de La Région Réunion."
         />
       </Helmet>
       <h1 className="h1">Nos offres</h1>
@@ -26,20 +26,19 @@ function Services() {
             <small>{formule.description.autre}</small>
             {formule.secondPrice ? (
               <p>
-                * Cela revient à <strong>{formule.secondPrice} </strong> après
-                remboursement du
+                * En ce moment, remboursement de 80 % du prix grâce au
                 <a
                   target="_blank"
                   rel="noreferrer"
                   className="lien"
-                  href="https://regionreunion.com/aides-services/article/le-cheque-numerique"
+                  href="https://regionreunion.com/aides-services/article/le-cheque-numerique-devient-le-kap-numerik"
                 >
-                  chèque numérique.
+                  kap numérik de la Région Réunion.
                 </a>
               </p>
             ) : (
               <p>
-                Paiement initial de <strong>150.00 €</strong>{" "}
+                Paiement initial de <strong>200.00 €</strong>
               </p>
             )}
             <div>
@@ -78,7 +77,7 @@ function Services() {
                     <td>{formule.description.hebergement}</td>
                   </tr>
                   <tr>
-                    <th>Éligible chèque numérique</th>
+                    <th>Éligible kap numérik</th>
                     <td>{formule.description.remboursement}</td>
                   </tr>
                   <tr>

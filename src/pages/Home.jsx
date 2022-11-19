@@ -41,11 +41,13 @@ export default function Home() {
   return (
     <main className="main_container">
       <Helmet>
-        <title> Grimoire Numérique | Accueil </title>
+        <title>
+          Grimoire Numérique | Création de sites internet à la Réunion
+        </title>
         <link rel="canonical" href="https://grimoire-numerique.re" />
         <meta
           name="description"
-          content="Le Grimoire Numérique a pour but d'aider les petites et moyennes entreprises réunionnaises à grandir et gagner en visibilité. Pour se faire, nous proposons des services de création de site internet rapide et peu cher et nous proposons également des interventions pour améliorer votre présence en ligne, via les réseaux sociaux et autres outils digitaux."
+          content="Création de sites web péi. Remboursement de 80% de vos dépenses grâce au kap numérik anciennement chèque numérique de la Région Réunion."
         />
       </Helmet>
       <section className="landingpage_container">

@@ -52,8 +52,8 @@ function Header() {
               className="no_button"
               onClick={() => setOpenBurger(false)}
             >
-              <Link to="/Services">
-                <li className="navlinks">Nos offres</li>
+              <Link to="/">
+                <li className="navlinks">Accueil</li>
               </Link>
             </button>
             <button
@@ -84,8 +84,8 @@ function Header() {
               </Link>
             </button>
             <Link to="/Services">
-              <button type="button" className="button_style blue">
-                Notre offre
+              <button type="button" className="button_style blue button_hover">
+                Nos offres
               </button>
             </Link>
           </ul>

@@ -132,6 +132,10 @@ th {
   border-radius: 0.75rem;
   font-weight: bold;
 }
+
+.button_hover:hover {
+  cursor: pointer;
+}
 .blue {
   background-color: var(--button-color);
   color: var(--main-bg-color);

@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Helmet from "react-helmet";
 import blogData from "../../datas/blogData";
-import fleche from "../../assets/fleche.png";
+// import fleche from "../../assets/fleche.png";
 
 function KapNumerik() {
   useEffect(() => {
@@ -50,9 +50,11 @@ function KapNumerik() {
             src="https://regionreunion.com/IMG/jpg/kapnume_rik1000x650-2.jpg"
             alt="homme devant un ordinateur"
           />
-          <small>21 Novembre 2022 à 12h26</small>
+          <small>...</small>
           <article>
-            <h3>Zoom sur ce dispositif de la Région Réunion</h3>
+            <h3>Article en cours d'écriture</h3>
+            {/*
+           <h3>Zoom sur ce dispositif de la Région Réunion</h3>
             <section>
               <p>
                 Aujourd’hui, la Région Réunion et le FEDER proposent aux petites
@@ -80,6 +82,7 @@ function KapNumerik() {
                 </button>
               </div>
             </section>
+          */}
           </article>
         </div>
       </main>

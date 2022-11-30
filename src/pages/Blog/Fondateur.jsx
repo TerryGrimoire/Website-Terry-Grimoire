@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Helmet from "react-helmet";
-import terry from "../../assets/terry_grimoire_mobile.jpg";
+import terry from "../../assets/terry_grimoire.jpg";
 import blogData from "../../datas/blogData";
 
 function Fondateur() {
@@ -19,20 +19,6 @@ function Fondateur() {
           name="description"
           content="Découvrez Terry Grimoire, fondateur du Grimoire Numérique, réunionnais de retour à La Réunion pour aider les petites et moyennes entreprises dans leur transition digitale en proposant ses services de création de site internet."
         />
-        <meta
-          property="og:url"
-          content="https://grimoire-numerique.re/Blog/1"
-        />
-        <meta property="og:type" content="article" />
-        <meta
-          property="og:title"
-          content="Le Grimoire Numérique : Qui se cache derrière le Grimoire Numérique ?"
-        />
-        <meta
-          property="og:description"
-          content="Découvrez Terry Grimoire, fondateur du Grimoire Numérique, réunionnais de retour à La Réunion pour aider les petites et moyennes entreprises dans leur transition digitale en proposant ses services de création de site internet."
-        />
-        <meta property="og:image" content={terry} />
       </Helmet>
       <main className="blog1">
         <h1 className="h1">GRIMOIRE NUMÉRIQUE | BLOG</h1>

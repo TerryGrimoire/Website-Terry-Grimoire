@@ -48,7 +48,7 @@ a.lien {
   color: var(--button-color);
   text-decoration: underline;
   font-weight: bold;
-  margin-left: 0.5rem;
+  margin: 0 0.5rem;
 }
 li {
   list-style: none;
@@ -555,21 +555,77 @@ align-items: center;
 
   .blog1 .button_kapNumerik {
     max-width: initial;
-    width: 100vw;
+    width: 100%;
     padding: 1rem 1rem;
-    margin-left: -2rem;
+    margin-left: 0rem;
     border: none;
     box-shadow: var(--box-shadow);
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: left;
+    background-color: var(--button-color);
+    color: var(--main-bg-color);
+  }
+  .blog1 .button_kapNumerik2 {
+    max-width: initial;
+    width: 70vw;
+    padding: 1rem 1rem;
+    margin-left: 0;
+    border: none;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
   }
 
  .blog1 .fleche {
-    height: 0.5rem;
+    height: 0.75rem;
     width: auto;
     margin: 0 1rem;
+    transform: rotate(-90deg);
+    transition: all 0.25s ease-in-out;
+  }
+
+  .blog1 .valide {
+    transform: rotate(0deg);
+  }
+
+  .blog2 * {
+    background-color: transparent;
+  } 
+  
+  .blog2 section {
+margin: 3rem 0;
+  }
+.blog2 .container {
+margin-bottom: 5rem;
+}
+  .blog2 section > * {
+    margin:1.5rem 0;
+      }
+
+  .blog2 h5 {
+    font-weight: normal;
+    font-size: 1rem;
+    color: var(--secondary-bg-color);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1px;
+
+  }
+
+  .blog2 ul {
+    margin: 1.5rem 0;
+  }
+
+
+  .blog2 li {
+    list-style: inside;
+    color: var(--third-color);
+    line-height: 1.5;
+    margin: 0.5rem 0 0.5rem 1.5rem;
   }
 /********************************************************************* FOOTER *********************************************************************/ 
 

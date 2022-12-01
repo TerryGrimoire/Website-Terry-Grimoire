@@ -1,13 +1,22 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Helmet from "react-helmet";
 import blogData from "../../datas/blogData";
-// import fleche from "../../assets/fleche.png";
+import fleche from "../../assets/fleche1.png";
+import Entreprise from "../../components/Entreprise";
+import Association from "../../components/Association";
+import Autoentrepreneur from "../../components/Autoentrepreneur";
+import Montant from "../../components/Montant";
 
 function KapNumerik() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  const [entreprise, setEntreprise] = useState(false);
+  const [association, setAssociation] = useState(false);
+  const [autoentrepreneur, setAutoentrepreneur] = useState(false);
+
   return (
     <section>
       <Helmet>
@@ -39,7 +48,7 @@ function KapNumerik() {
           content="https://regionreunion.com/IMG/jpg/kapnume_rik1000x650-2.jpg"
         />
       </Helmet>
-      <main className="blog1">
+      <main className="blog1 blog2">
         <h1 className="h1">GRIMOIRE NUMÉRIQUE | BLOG</h1>
         <div>
           <h2>
@@ -50,39 +59,73 @@ function KapNumerik() {
             src="https://regionreunion.com/IMG/jpg/kapnume_rik1000x650-2.jpg"
             alt="homme devant un ordinateur"
           />
-          <small>...</small>
           <article>
-            <h3>Article en cours d'écriture</h3>
-            {/*
-           <h3>Zoom sur ce dispositif de la Région Réunion</h3>
+            <h3>Zoom sur ce dispositif de la Région Réunion</h3>
             <section>
               <p>
                 Aujourd’hui, la Région Réunion et le FEDER proposent aux petites
                 et moyennes entreprises réunionnaises et aux associations de
                 bénéficier d’une aide à la digitalisation. Cette aide prend la
-                forme d’un remboursement d’un montant maximum de 3200.00 € et
-                est disponible sous certaines conditions et dans un délai
-                limité. Découvrons ensemble tout ce qu’il y a à savoir sur le
-                kap numérik :
+                forme d’un remboursement d’un montant maximum de 3200.00 € qui
+                correspond à 80% des dépenses HT pour les structures de moins de
+                9 salariés et 50% pour celles de plus de 9 salariés.
               </p>
+
+              <Montant />
+              <p>
+                Nous avons conçu pour vous
+                <Link to="/simulateur" className="lien">
+                  un simulateur
+                </Link>
+                afin de vous permettre de vérifier si vous êtes éligible au kap
+                numérik.
+              </p>
+              <h4>Toutes les informations importantes :</h4>
             </section>
             <section>
               <div>
-                <button type="button" className="button_kapNumerik">
-                  Entreprise
-                  <img src={fleche} alt="fleche" className="fleche" />
+                <button
+                  type="button"
+                  className="button_kapNumerik"
+                  onClick={() => setEntreprise(!entreprise)}
+                >
+                  Entreprises
+                  <img
+                    src={fleche}
+                    alt="fleche"
+                    className={entreprise ? "fleche valide" : "fleche"}
+                  />
                 </button>
-                <button type="button" className="button_kapNumerik">
+                {entreprise && <Entreprise />}
+                <button
+                  type="button"
+                  className="button_kapNumerik"
+                  onClick={() => setAssociation(!association)}
+                >
                   Associations
-                  <img src={fleche} alt="fleche" className="fleche" />
+                  <img
+                    src={fleche}
+                    alt="fleche"
+                    className={association ? "fleche valide" : "fleche"}
+                  />
                 </button>
-                <button type="button" className="button_kapNumerik">
-                  Auto Entreprise | Entreprise individuelle
-                  <img src={fleche} alt="fleche" className="fleche" />
+
+                {association && <Association />}
+                <button
+                  type="button"
+                  className="button_kapNumerik"
+                  onClick={() => setAutoentrepreneur(!autoentrepreneur)}
+                >
+                  Auto Entreprise | Professions Libérales
+                  <img
+                    src={fleche}
+                    alt="fleche"
+                    className={autoentrepreneur ? "fleche valide" : "fleche"}
+                  />
                 </button>
+                {autoentrepreneur && <Autoentrepreneur />}
               </div>
             </section>
-          */}
           </article>
         </div>
       </main>

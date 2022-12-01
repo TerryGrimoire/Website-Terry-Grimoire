@@ -29,6 +29,9 @@ function Footer() {
               <Link to="/Contact">
                 <li>Contact</li>
               </Link>
+              <Link to="/Blog">
+                <li>Blog</li>
+              </Link>
               <Link to="/Contact">
                 <li>Mentions légales</li>
               </Link>

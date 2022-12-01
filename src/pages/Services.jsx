@@ -27,23 +27,22 @@ function Services() {
             {formule.secondPrice ? (
               <p>
                 * En ce moment, remboursement de 80 % du prix grâce au
-                <a
-                  target="_blank"
-                  rel="noreferrer"
-                  className="lien"
-                  href="https://regionreunion.com/aides-services/article/le-cheque-numerique-devient-le-kap-numerik"
-                >
-                  kap numérik de la Région Réunion.
-                </a>
+                <Link to="/Blog/2">kap numérik de la Région Réunion.</Link>
               </p>
             ) : (
               <p>
-                Paiement initial de <strong>200.00 €</strong>
+                Paiement initial de <strong>300.00 €</strong> à régler avant la
+                confection du site. Formule éligible uniquement pour sites
+                vitrines.
               </p>
             )}
             <div>
               <table>
                 <tbody>
+                  <tr>
+                    <th>Nombres de pages</th>
+                    <td>{formule.description.pages}</td>
+                  </tr>
                   <tr>
                     <th>Maquette</th>
                     <td>{formule.description.maquette}</td>
@@ -51,14 +50,6 @@ function Services() {
                   <tr>
                     <th>Personnalisation</th>
                     <td>{formule.description.personalisation}</td>
-                  </tr>
-                  <tr>
-                    <th>Nombres de pages</th>
-                    <td>{formule.description.pages}</td>
-                  </tr>
-                  <tr>
-                    <th>Contenu fourni</th>
-                    <td>{formule.description.contenu}</td>
                   </tr>
                   <tr>
                     <th>Version web</th>
@@ -69,16 +60,12 @@ function Services() {
                     <td>{formule.description.mobile}</td>
                   </tr>
                   <tr>
-                    <th>Nom de domaine</th>
-                    <td>{formule.description.domaine}</td>
-                  </tr>
-                  <tr>
-                    <th>Hébergement</th>
-                    <td>{formule.description.hebergement}</td>
-                  </tr>
-                  <tr>
                     <th>Éligible kap numérik</th>
                     <td>{formule.description.remboursement}</td>
+                  </tr>
+                  <tr>
+                    <th>Contenu fourni</th>
+                    <td>{formule.description.contenu}</td>
                   </tr>
                   <tr>
                     <th>Marketing digital</th>
@@ -87,6 +74,22 @@ function Services() {
                   <tr>
                     <th>Formulaire de contact</th>
                     <td>{formule.description.contact}</td>
+                  </tr>
+                  <tr>
+                    <th>Stratégie digitale</th>
+                    <td>{formule.description.stratégies}</td>
+                  </tr>
+                  <tr>
+                    <th>Conseils entreprise</th>
+                    <td>{formule.description.conseils}</td>
+                  </tr>
+                  <tr>
+                    <th>Changement du contenu</th>
+                    <td>{formule.description.changement}</td>
+                  </tr>
+                  <tr>
+                    <th>Hébergement</th>
+                    <td>{formule.description.hebergement}</td>
                   </tr>
                 </tbody>
               </table>

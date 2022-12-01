@@ -22,7 +22,7 @@ function Association() {
             <li>Domiciliée à La Réunion</li>
             <li>Moins de 10 salariés</li>
             <li>0 salarié ok</li>
-            <li>Une demande par année calendaire</li>
+            <li>Une demande par an</li>
           </ul>
         </div>
       </section>
@@ -33,7 +33,7 @@ function Association() {
           className="button_kapNumerik2"
           onClick={() => setMoins(!moins)}
         >
-          Association de moins de 2 ans
+          Association moins de 2 ans
           <img
             src={fleche}
             alt="fleche"
@@ -43,17 +43,17 @@ function Association() {
         {moins && (
           <ul>
             <li>Carte d’identité ou Passeport</li>
-            <li>Un RIB (Relevé d’identité bancaire)</li>
+            <li>Un RIB </li>
             <li>Le devis du prestataire</li>
-            <li>La fiche de plan d’actions numériques</li>
+            <li>La fiche de plan d’actions</li>
             <li>La fiche d’engagement</li>
-            <li>Avis de situation du répertoire SIREN</li>
-            <li>Copie des statuts à jour et approuvés</li>
-            <li>Récépissé déclaration en préfecture</li>
+            <li>Avis situation du répertoire SIREN</li>
+            <li>Statuts à jour et approuvés</li>
+            <li>Déclaration en préfecture</li>
             <li>OU publication au Journal Officiel</li>
-            <li>Décision du CA en faveur du projet</li>
+            <li>Décision CA en faveur du projet</li>
             <li>Liste des membres du CA</li>
-            <li>Dernier bilans et Comptes de résultat</li>
+            <li>Bilans et Comptes de résultat</li>
             <li>
               Attestation sur l’honneur indiquant que l’association a moins de
               deux ans et qu’elle respecte les conditions d’éligibilité du kap
@@ -66,7 +66,7 @@ function Association() {
           className="button_kapNumerik2"
           onClick={() => setPlus(!plus)}
         >
-          Entreprise de plus de 2 ans
+          Association plus de 2 ans
           <img
             src={fleche}
             alt="fleche"
@@ -76,17 +76,17 @@ function Association() {
         {plus && (
           <ul>
             <li>Carte d’identité ou Passeport</li>
-            <li>Un RIB (Relevé d’identité bancaire)</li>
+            <li>Un RIB </li>
             <li>Le devis du prestataire</li>
-            <li>La fiche de plan d’actions numériques</li>
+            <li>La fiche de plan d’actions</li>
             <li>La fiche d’engagement</li>
-            <li>Avis de situation du répertoire SIREN</li>
-            <li>Copie des statuts à jour et approuvés</li>
-            <li>Récépissé déclaration en préfecture</li>
+            <li>Avis situation du répertoire SIREN</li>
+            <li>Statuts à jour et approuvés</li>
+            <li>Déclaration en préfecture</li>
             <li>OU publication au Journal Officiel</li>
-            <li>Décision du CA en faveur du projet </li>
+            <li>Décision CA en faveur du projet </li>
             <li>Liste des membres du CA</li>
-            <li>Dernier bilans et Comptes de résultat</li>
+            <li>Bilans et Comptes de résultat</li>
           </ul>
         )}
       </section>

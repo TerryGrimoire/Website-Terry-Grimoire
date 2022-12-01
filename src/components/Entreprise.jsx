@@ -22,14 +22,14 @@ function Entreprise() {
             <li>Siège social à La Réunion </li>
             <li>Moins de 20 salariés</li>
             <li>0 salarié ok</li>
-            <li>Une demande par année calendaire</li>
+            <li>Une demande par an</li>
 
             <li>Inscrit au Registre des Commerces</li>
             <li>OU Registre des Métiers</li>
           </ul>
         </div>
         <div>
-          <h5>secteurs exclus :</h5>
+          <h5>Secteurs exclus :</h5>
           <ul>
             <li>Entreprises du numérique</li>
             <li>Secteur agricole</li>
@@ -41,8 +41,8 @@ function Entreprise() {
           <h5>Chiffre d'affaire :</h5>
 
           <ul>
-            <li>De 0 à 9 salariés : CA &lt; à 500 000 €</li>
-            <li>De 10 à 19 salariés : CA &lt; à 1 M €</li>
+            <li>De 0 à 9 salariés : CA &lt; 500 K €</li>
+            <li>De 10 à 19 salariés : CA &lt; 1 M €</li>
           </ul>
         </div>
       </section>
@@ -63,11 +63,11 @@ function Entreprise() {
         {moins && (
           <ul>
             <li>Carte d’identité ou Passeport</li>
-            <li>Un RIB (Relevé d’identité bancaire)</li>
+            <li>Un RIB </li>
             <li>Le devis du prestataire</li>
-            <li>La fiche de plan d’actions numériques</li>
+            <li>La fiche de plan d’actions</li>
             <li>La fiche d’engagement</li>
-            <li>KBIS ou Extrait D1 moins de 3 mois</li>
+            <li>KBIS ou Extrait D1 </li>
             <li>
               Attestation sur l’honneur indiquant que l’entreprise a moins de
               deux ans et qu’elle respecte les conditions d’éligibilité du kap
@@ -90,13 +90,13 @@ function Entreprise() {
         {plus && (
           <ul>
             <li>Carte d’identité ou Passeport</li>
-            <li>Un RIB (Relevé d’identité bancaire)</li>
+            <li>Un RIB </li>
             <li>Le devis du prestataire</li>
-            <li>La fiche de plan d’actions numériques</li>
+            <li>La fiche de plan d’actions</li>
             <li>La fiche d’engagement</li>
-            <li>KBIS ou Extrait D1 moins de 3 mois</li>
+            <li>KBIS ou Extrait D1 </li>
             <li>Bilans et comptes de résultats du dernier exercice clos</li>
-            <li>Déclaration sociale nominative N-1</li>
+            <li>Déclaration sociale nominative</li>
           </ul>
         )}
       </section>

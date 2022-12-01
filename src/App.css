@@ -555,9 +555,9 @@ align-items: center;
 
   .blog1 .button_kapNumerik {
     max-width: initial;
-    width: 100%;
+    width: 100vw;
     padding: 1rem 1rem;
-    margin-left: 0rem;
+    margin-left: -2.5rem;
     border: none;
     box-shadow: var(--box-shadow);
     display: flex;
@@ -571,7 +571,7 @@ align-items: center;
     max-width: initial;
     width: 70vw;
     padding: 1rem 1rem;
-    margin-left: 0;
+    margin-left: 0rem;
     border: none;
     box-shadow: var(--box-shadow);
     display: flex;

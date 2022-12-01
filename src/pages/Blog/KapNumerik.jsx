@@ -72,14 +72,14 @@ function KapNumerik() {
               </p>
 
               <Montant />
-              <p>
+              {/* <p>
                 Nous avons conçu pour vous
                 <Link to="/simulateur" className="lien">
                   un simulateur
                 </Link>
                 afin de vous permettre de vérifier si vous êtes éligible au kap
                 numérik.
-              </p>
+            </p> */}
               <h4>Toutes les informations importantes :</h4>
             </section>
             <section>

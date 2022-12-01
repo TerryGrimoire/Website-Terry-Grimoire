@@ -21,12 +21,10 @@ function Montant() {
         {remb && (
           <ul>
             <li>
-              Création ou refonte d’un site vitrine (pas de vente en ligne) :
-              <span> 1200 €</span>
+              Création ou refonte d’un site vitrine :<span> 1200 €</span>
             </li>
             <li>
-              Création d’un site internet de type marchand (vente en ligne) :
-              <span> 2000 €</span>
+              Création d’un site marchand (vente en ligne) :<span> 2000 €</span>
             </li>
             <li>
               Création de contenus digitaux (crédits photos, web design, logo,

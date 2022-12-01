@@ -556,7 +556,7 @@ align-items: center;
   .blog1 .button_kapNumerik {
     max-width: initial;
     width: 100vw;
-    padding: 1rem 1rem;
+    padding: 1rem 1rem 1rem 1.5rem;
     margin-left: -2.5rem;
     border: none;
     box-shadow: var(--box-shadow);
@@ -1038,6 +1038,74 @@ align-items: center;
 .mini_blog img {
   height: 10rem;
   width: auto;
+}
+
+
+/*** BLOG 2 ***/
+
+
+.blog1 .button_kapNumerik {
+  max-width: initial;
+  width: 100%;
+  padding: 1rem 1rem;
+  margin-left: 0rem;
+  border: none;
+  box-shadow: var(--box-shadow);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  background-color: var(--button-color);
+  color: var(--main-bg-color);
+}
+.blog1 .button_kapNumerik2 {
+  max-width: initial;
+  width: 70%;
+  padding: 1rem 1rem;
+  margin-left: 0rem;
+  border: none;
+  box-shadow: var(--box-shadow);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.blog2 section {
+margin: 2rem 0;
+}
+.blog2 .container {
+margin-bottom: 5rem;
+}
+.blog2 section > * {
+  margin:1.5rem 0;
+    }
+
+.blog2 h5 {
+  font-weight: normal;
+  font-size: 1rem;
+  color: var(--secondary-bg-color);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+
+}
+
+.blog2 ul {
+  margin: 1.5rem 0;
+}
+
+
+.blog2 li {
+  list-style: inside;
+  color: var(--third-color);
+  line-height: 1.5;
+  margin: 0rem 0 0rem 1.5rem;
+}
+
+.blog2 article > div {
+  padding: 0rem 10rem;
+
 }
   /********************************************************************* CONTACT *********************************************************************/ 
 .contact_container {

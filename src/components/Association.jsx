@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import fleche from "../assets/fleche.png";
 
 function Association() {
@@ -9,13 +8,6 @@ function Association() {
     <div>
       <section>
         <h4>ÉLIGIBILITÉ :</h4>
-        <p>
-          Testez votre éligibilité au kap numérik avec{" "}
-          <Link to="/simulateur" className="lien">
-            notre simulateur
-          </Link>
-          .
-        </p>
         <div>
           <h5>Conditions :</h5>
           <ul>

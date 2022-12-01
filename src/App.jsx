@@ -7,6 +7,7 @@ import Services from "./pages/Services";
 import Clients from "./pages/Clients";
 import Contact from "./pages/Contact";
 import Blog from "./pages/Blog";
+import Simulateur from "./pages/Simulateur";
 import Fondateur from "./pages/Blog/Fondateur";
 import KapNumerik from "./pages/Blog/KapNumerik";
 import AideNumerik from "./pages/Blog/AideNumerik";
@@ -32,6 +33,12 @@ function App() {
           <Route
             path="/Clients"
             element={<Clients language={language} setLanguage={setLanguage} />}
+          />
+          <Route
+            path="/Simulateur"
+            element={
+              <Simulateur language={language} setLanguage={setLanguage} />
+            }
           />
           <Route
             path="/Contact"

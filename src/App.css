@@ -349,7 +349,7 @@ width: 15rem;
 
 iframe {
   width: 100vw;
-  height: 50rem;
+  height: 130vh;
   overflow-x:hidden;
   overflow-Y:hidden;
 }
@@ -370,6 +370,26 @@ iframe {
 
 /********************************************************************* CONTACT *********************************************************************/ 
 
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+
+.contact div {
+  padding: 1rem 0;
+  font-size: 1.3rem;
+  text-align: left;
+}
+.contact h2 {
+  text-align: center;
+  margin: 1rem 0;
+}
+.contact div a {
+  margin: 1rem 0;
+}
 
 label {
   display: flex;
@@ -1110,6 +1130,41 @@ margin-bottom: 5rem;
   /********************************************************************* CONTACT *********************************************************************/ 
 .contact_container {
   overflow-x: hidden;
+}
+
+.contact {
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 2rem 0;
+}
+
+.contact div {
+  padding: 0.25rem 0;
+  font-size: 1.3rem;
+  text-align: left;
+}
+
+
+iframe {
+  width: 50vw;
+  height: 150vh;
+  overflow-x:hidden;
+  overflow-Y:hidden;
+  margin: 0;
+}
+
+.contact .coord {
+  border-radius: 0.75rem;
+  padding: 0rem 3rem;
+  height: fit-content;
+  box-shadow: var(--box-shadow);
+  margin: 4rem 1rem;
+}
+
+.contact .coord a {
+  height: fit-content;
+  margin: 0.25rem;
 }
   /********************************************************************* HEADER *********************************************************************/ 
   .desktop {

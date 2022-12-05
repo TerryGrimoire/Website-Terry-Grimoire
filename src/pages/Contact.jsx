@@ -1,12 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import Helmet from "react-helmet";
-import Form from "../components/Form";
 
 function Contact() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-  const [rdv, setRdv] = useState(true);
+
   return (
     <div className="flex flex-col align-center contact_container">
       <Helmet>
@@ -17,33 +16,26 @@ function Contact() {
         />
       </Helmet>
       <h1 className="h1">Nous joindre</h1>
-      <section>
-        <div className="flex justify-center margin1r0 ">
-          <button
-            type="button"
-            className="button_style margin0r1r"
-            onClick={() => setRdv(true)}
-          >
-            Prendre un rdv
-          </button>
-          <button
-            type="button"
-            className="button_style margin0r1r"
-            onClick={() => setRdv(false)}
-          >
-            Envoyer un email
-          </button>
+      <section className="contact">
+        <div className="coord">
+          <h2>Mes coordonnées</h2>
+          <div className="flex-col">
+            <a href="tel:+262693873050">📞 06 93 87 30 50</a>
+            <a href="mailto:contact@grimoire-numerique.re">
+              📧 contact@grimoire-numerique.re
+            </a>
+            <a href="https://www.facebook.com/grimoirenumerique">
+              <img src="" alt="" />
+            </a>
+          </div>
         </div>
-        {rdv ? (
-          <iframe
-            src="https://calendly.com/terry-grimoire/30min?month=2022-08"
-            frameBorder="0"
-            title="calendly terry grimoire"
-            scrolling="no"
-          />
-        ) : (
-          <Form />
-        )}
+
+        <iframe
+          src="https://calendly.com/terry-grimoire/30min?month=2022-08"
+          frameBorder="0"
+          title="calendly terry grimoire"
+          scrolling="no"
+        />
       </section>
     </div>
   );

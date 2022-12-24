@@ -1,4 +1,5 @@
 import terry from "../assets/terry_grimoire_mobile.jpg";
+import patissieres from "../assets/blogPatissieres.png";
 
 const blogData = [
   {
@@ -29,6 +30,16 @@ const blogData = [
     description: "",
     catagory: "kap numérik",
     link: "/blog/3",
+  },
+  {
+    id: 4,
+    title:
+      "Surprise de Noël : Le Grimoire Numérique offre un site internet à une entreprise en difficulté.",
+    src: patissieres,
+    alt: "Terry du Grimoire Numérique et Mamy gérante des Pâtissières",
+    description: "",
+    catagory: "clients",
+    link: "/blog/4",
   },
 ];
 

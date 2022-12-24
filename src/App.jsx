@@ -11,6 +11,7 @@ import Simulateur from "./pages/Simulateur";
 import Fondateur from "./pages/Blog/Fondateur";
 import KapNumerik from "./pages/Blog/KapNumerik";
 import AideNumerik from "./pages/Blog/AideNumerik";
+import Patissieres from "./pages/Blog/Patissieres";
 import Mentions from "./pages/Mentions";
 
 import "./App.css";
@@ -64,6 +65,12 @@ function App() {
             path="/Blog/3"
             element={
               <AideNumerik language={language} setLanguage={setLanguage} />
+            }
+          />
+          <Route
+            path="/Blog/4"
+            element={
+              <Patissieres language={language} setLanguage={setLanguage} />
             }
           />
           <Route

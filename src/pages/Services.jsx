@@ -8,7 +8,7 @@ function Services() {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <section className="margin0r1r">
+    <section className="margin0r1r services">
       <Helmet>
         <title> Grimoire Numérique | Nos offres </title>
         <link rel="canonical" href="https://grimoire-numerique.re/Services" />
@@ -18,18 +18,18 @@ function Services() {
         />
       </Helmet>
       <h1 className="h1">Nos offres</h1>
+      <p>
+        En ce moment, La Région Réunion vous rembourse 80% du prix hors taxes
+        grâce au dispositif
+        <Link to="/Blog/2">Kap Numérik.</Link>
+      </p>
       <div className="service_main_container">
         {formulesData.map((formule) => (
           <div className="formules_container flex-col text-center margin5r0">
-            <h3 className="h3_formule">{formule.title}</h3>
-            <strong>{formule.price} *</strong>
+            <h3 className={`h3_formule ${formule.bg}`}>{formule.title}</h3>
+            <strong>{formule.price}</strong>
             <small>{formule.description.autre}</small>
-            {formule.secondPrice ? (
-              <p>
-                * En ce moment, remboursement de 80 % du prix grâce au
-                <Link to="/Blog/2">kap numérik de la Région Réunion.</Link>
-              </p>
-            ) : (
+            {!formule.secondPrice && (
               <p>
                 Paiement initial de <strong>300.00 €</strong> à régler avant la
                 confection du site. Formule éligible uniquement pour sites
@@ -64,20 +64,24 @@ function Services() {
                     <td>{formule.description.remboursement}</td>
                   </tr>
                   <tr>
+                    <th>Montage du dossier kap numérik</th>
+                    <td>{formule.description.accompagnement}</td>
+                  </tr>
+                  <tr>
+                    <th>Listé sur nos sites partenaires</th>
+                    <td>{formule.description.partenaires}</td>
+                  </tr>
+                  <tr>
                     <th>Contenu fourni</th>
                     <td>{formule.description.contenu}</td>
                   </tr>
                   <tr>
-                    <th>Marketing digital</th>
-                    <td>{formule.description.reseaux}</td>
-                  </tr>
-                  <tr>
-                    <th>Formulaire de contact</th>
-                    <td>{formule.description.contact}</td>
-                  </tr>
-                  <tr>
                     <th>Stratégie digitale</th>
                     <td>{formule.description.stratégies}</td>
+                  </tr>
+                  <tr>
+                    <th>Marketing digital</th>
+                    <td>{formule.description.reseaux}</td>
                   </tr>
                   <tr>
                     <th>Conseils entreprise</th>

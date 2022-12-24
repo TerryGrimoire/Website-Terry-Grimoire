@@ -171,6 +171,22 @@ th {
 .vh100 {
   height: 100vh;
 }
+
+.hidden {
+  display: none;
+}
+
+.loader {
+position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 10rem;
+  background-color: var(--main-bg-color);
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /********************************************************************* NAV *********************************************************************/ 
 .desktop { display: none;}
 
@@ -347,13 +363,6 @@ width: 15rem;
   height: 30rem;
 }
 
-iframe {
-  width: 100vw;
-  height: 130vh;
-  overflow-x:hidden;
-  overflow-Y:hidden;
-}
-
 .h3_formule {
   height: 10rem;
   width: 12rem;
@@ -368,6 +377,31 @@ iframe {
   color: var(--main-bg-color);
 }
 
+.basique {
+  background-color: lightgrey;
+}
+
+.plus {
+  background-color: var(--third-color);
+}
+
+.extra {
+  background-color: var(--button-color);
+}
+
+.mensuel {
+  background-color: var(--third-color);
+}
+
+.services a {
+  margin: 0 0.5rem;
+  text-decoration: underline;
+}
+
+.services > p {
+  margin: 2rem;
+}
+
 /********************************************************************* CONTACT *********************************************************************/ 
 
 .contact {
@@ -376,6 +410,7 @@ iframe {
   justify-content: center;
   align-items: center;
   margin: 2rem;
+  position: relative;
 }
 
 .contact div {
@@ -388,7 +423,7 @@ iframe {
   margin: 1rem 0;
 }
 .contact div a {
-  margin: 1rem 0;
+  margin: 1rem;
 }
 
 label {
@@ -414,6 +449,15 @@ width: 90%;
 .contact_form button {
   width: 10rem;
   margin: 1rem auto;
+}
+
+.contact_container {
+  overflow: hidden;
+}
+
+iframe {
+  height: 60rem;
+  width: 100vw;
 }
 
 /********************************************************************* CLIENTS *********************************************************************/ 
@@ -707,12 +751,12 @@ margin-bottom: 5rem;
 }
 
 /********************************************************************* MENTIONS *********************************************************************/ 
-.mentions {
-  padding: 1rem 4rem 3rem 1rem;
+.mentions_container {
+  padding: 1rem 2rem;
 }
 
-.mentions > * {
-  padding: 2rem 0;
+.mentions_container > * {
+  padding: 1rem 0;
 }
 
 
@@ -900,7 +944,7 @@ margin-bottom: 5rem;
       justify-content: center;
       margin: 2rem auto;
     }
-  
+
     .span_blue {
       font-size: 2rem;
       color: var(--button-color);
@@ -917,11 +961,12 @@ margin-bottom: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
   }
   .service_main_container > div {
     box-shadow: var(--box-shadow);
-    width: 25vw;
-    margin: 2rem;
+    width: 29vw;
+    margin: 5rem 1rem;
     padding: 2rem 1rem;
 
   }
@@ -936,7 +981,6 @@ margin-bottom: 5rem;
   margin:1rem auto 1rem;
   box-shadow: var(--box-shadow);
   border-radius: 61% 39% 75% 25% / 71% 29% 71% 29%  ;
-  background-color: var(--button-color);
   color: var(--main-bg-color);
 }
 

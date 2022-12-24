@@ -4,8 +4,18 @@ import charles from "../assets/charles.png";
 import ASMK from "../assets/asmk.png";
 import portefolio from "../assets/portefolio.png";
 import barber from "../assets/barber.jpg";
+import patissieres from "../assets/patissieres.png";
 
 const partenairesData = [
+  {
+    id: 0,
+    title: "Les Pâtissières",
+    image: patissieres,
+    alt: "Logo des pâtissières",
+    links: "https://lespatissieres.re/",
+    description:
+      "Les Pâtissières est une entreprise basée au bas de la rivière à Saint Denis qui lie à la fois le savoir-faire pâtissier français avec les saveurs et aromates de La Réunion. Déclinés en version sucrée ou salées, le goût péi est à savourer avec gourmandise dans cet atelier.",
+  },
   {
     id: 1,
     title: "Le Montecito",

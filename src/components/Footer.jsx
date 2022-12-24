@@ -32,7 +32,7 @@ function Footer() {
               <Link to="/Blog">
                 <li>Blog</li>
               </Link>
-              <Link to="/Contact">
+              <Link to="/Mentions">
                 <li>Mentions légales</li>
               </Link>
             </ul>

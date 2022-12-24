@@ -1,10 +1,12 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Helmet from "react-helmet";
 
 function Contact() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  const [ready, setReady] = useState(false);
 
   return (
     <div className="flex flex-col align-center contact_container">
@@ -30,11 +32,16 @@ function Contact() {
           </div>
         </div>
 
+        <div className={ready ? "hidden" : "loader"}>
+          <img src="https://i.stack.imgur.com/ATB3o.gif" alt="loading" />
+        </div>
+
         <iframe
           src="https://calendly.com/terry-grimoire/30min?month=2022-08"
           frameBorder="0"
           title="calendly terry grimoire"
           scrolling="no"
+          onLoad={() => setReady(true)}
         />
       </section>
     </div>
